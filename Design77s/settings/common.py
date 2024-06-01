@@ -182,12 +182,12 @@ CHANNEL_LAYERS = {
 }
 # DRF
 REST_FRAMEWORK = {
-    # "DEFAULT_PERMISSION_CLASSES": [
-    #     "user.permissions.IsVerified",
-    # ],
-    # "DEFAULT_AUTHENTICATION_CLASSES": [
-    #     "rest_framework_simplejwt.authentication.JWTAuthentication",
-    # ],
+    "DEFAULT_PERMISSION_CLASSES": [
+        "user.permissions.IsVerified",
+    ],
+    "DEFAULT_AUTHENTICATION_CLASSES": [
+        "rest_framework_simplejwt.authentication.JWTAuthentication",
+    ],
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
     "DEFAULT_FILTER_BACKENDS": [
         "django_filters.rest_framework.DjangoFilterBackend",
@@ -208,30 +208,40 @@ SPECTACULAR_SETTINGS = {
 
 # CORS
 # CORS_EXPOSE_HEADERS = ["Content-Type", "X-CSRFToken"]
+
+#change allowed in porduction like the following
+#CORS_ALLOWED_ORIGINS = [
+#     'http://localhost:3000',
+#     'http://127.0.0.1:3000',
+# ]
+
+CORS_ALLOW_ALL_ORIGINS = True
+
+
 CORS_ALLOW_CREDENTIALS = True
 
 SESSION_COOKIE_NAME = "77SDESIGN_SESSION_ID"
 CSRF_COOKIE_NAME = "77SDESIGN_CSRF_TOKEN"
 
-# EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
-# EMAIL_HOST = os.environ.get("EMAIL_HOST")
-# EMAIL_HOST_USER = os.environ.get("EMAIL_HOST_USER")
-# EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD")
-# EMAIL_PORT = os.getenv("EMAIL_PORT", 587)
-# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-# EMAIL_HOST = 'smtp.outlook.office365.com'
-# EMAIL_PORT = 587
-# EMAIL_USE_TLS = True
-# EMAIL_HOST_USER = 'nanomanfaa2@outlook.com'
-# EMAIL_HOST_PASSWORD = 'Rom@123456789'
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST = os.environ.get("EMAIL_HOST")
+EMAIL_HOST_USER = os.environ.get("EMAIL_HOST_USER")
+EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD")
+EMAIL_PORT = os.getenv("EMAIL_PORT", 587)
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'sdesigns729@gmail.com'
+EMAIL_HOST_PASSWORD = 'mdkcgjzpxdrfojpa'
 
 ###### Mailtrap ######
 
-EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
-EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
-EMAIL_HOST_USER = '6021a49f573b68'
-EMAIL_HOST_PASSWORD = 'd239bed48fa49c'
-EMAIL_PORT = '2525'
+# EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+# EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
+# EMAIL_HOST_USER = '6021a49f573b68'
+# EMAIL_HOST_PASSWORD = 'd239bed48fa49c'
+# EMAIL_PORT = '2525'
 
 
 # SOCIAL_SECRET_KEY = (
@@ -302,3 +312,5 @@ SITE_URL = f"{SITE_PROTOCOL}://{SITE_DOMAIN}"
 
 CELERY_BROKER_URL = REDIS_URL
 CELERY_RESULT_BACKEND = REDIS_URL
+CELERY_ACCEPT_CONTENT = ['json']
+CELERY_TASK_SERIALIZER = 'json'

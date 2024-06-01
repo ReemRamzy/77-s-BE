@@ -21,7 +21,8 @@ class User(AbstractUser):
     username = models.CharField(max_length=150, unique=True, blank=True, null=True)
     first_name = None
     last_name = None
-    is_active = models.BooleanField(default=False)
+    #default value is false
+    is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
     user_type = models.CharField(
         max_length=8, choices=UserType.choices, default=None, blank=True, null=True

@@ -30,6 +30,8 @@ from django.http import JsonResponse
 import re
 import validate_email
 from django.core.signing import Signer
+
+
 class RegisterView(generics.GenericAPIView):
     serializer_class = RegisterSerializer
     permission_classes = (AllowAny,)
@@ -171,9 +173,10 @@ class LoginView(generics.GenericAPIView):
         serializer.is_valid(raise_exception=True)
         return Response(serializer.validated_data, status=status.HTTP_200_OK)
 
-
+#changed to test get details
 @api_view(["GET"])
-@permission_classes((permissions.IsAuthenticated,))
+@permission_classes((permissions.AllowAny,))
+#@permission_classes((AllowAny,))
 def get_user_details(request, version):
     serializer = UserSerializer(request.user)
     response = Response(serializer.data, status=status.HTTP_200_OK)

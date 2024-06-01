@@ -16,3 +16,5 @@ def send_email_task(self, recipient: str, subject: str, template: str, context: 
         logger.error(e)
         raise self.retry(exc=e, countdown=60)
     return True
+
+

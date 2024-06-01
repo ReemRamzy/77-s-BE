@@ -8,7 +8,8 @@ from .tasks import send_email_task
 
 
 class Verification:
-    exp = dt.datetime.utcnow() + dt.timedelta(minutes=30)
+    #exp = dt.datetime.utcnow() + dt.timedelta(minutes=30)
+    exp = dt.datetime.now(dt.timezone.utc) + dt.timedelta(minutes=30)
     signer = Signer(settings.SECRET_KEY)
 
     @classmethod

@@ -262,7 +262,7 @@ class Contest(models.Model):
         PENDING = "PENDING", "Pending"
         STOPPED = "STOPPED", "Stopped"
 
-    owner = models.ForeignKey("user.User", on_delete=models.CASCADE, default=4)
+    owner = models.ForeignKey("user.User", on_delete=models.CASCADE, default=11)
     name = models.CharField(max_length=50, default="user")
     languages = models.CharField(max_length=150)
     description = models.TextField()
