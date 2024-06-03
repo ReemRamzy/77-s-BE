@@ -16854,3 +16854,544 @@ Original exception text was: 'AnonymousUser' object has no attribute 'email'.
 [WARNING] 2024-06-01 20:11:47,534 runserver 11041 125120267945536 [31;1mHTTP GET /v1.0/user/details/ 401 [0.03, 127.0.0.1:59346][0m
 [WARNING] 2024-06-01 20:11:47,561 log 11041 125120179865152 Unauthorized: /v1.0/user/details/
 [WARNING] 2024-06-01 20:11:47,563 runserver 11041 125120267945536 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:59360][0m
+[WARNING] 2024-06-01 21:01:46,712 log 11041 125119611536960 Unauthorized: /v1.0/user/profile/client/28
+[WARNING] 2024-06-01 21:01:46,713 runserver 11041 125120267945536 [31;1mHTTP GET /v1.0/user/profile/client/28 401 [0.02, 127.0.0.1:47366][0m
+[WARNING] 2024-06-01 21:18:32,178 log 11041 125120137922112 Unauthorized: /v1.0/user/profile/client/28
+[WARNING] 2024-06-01 21:18:32,179 runserver 11041 125120267945536 [31;1mHTTP GET /v1.0/user/profile/client/28 401 [0.02, 127.0.0.1:57832][0m
+[WARNING] 2024-06-01 21:18:32,195 log 11041 125120179865152 Unauthorized: /v1.0/user/profile/client/28
+[WARNING] 2024-06-01 21:18:32,196 runserver 11041 125120267945536 [31;1mHTTP GET /v1.0/user/profile/client/28 401 [0.01, 127.0.0.1:57836][0m
+[WARNING] 2024-06-01 21:18:55,007 log 11041 125119611536960 Unauthorized: /v1.0/user/profile/client/28
+[WARNING] 2024-06-01 21:18:55,009 runserver 11041 125120267945536 [31;1mHTTP GET /v1.0/user/profile/client/28 401 [0.02, 127.0.0.1:50776][0m
+[WARNING] 2024-06-01 21:18:55,049 log 11041 125120169379392 Unauthorized: /v1.0/user/profile/client/28
+[WARNING] 2024-06-01 21:18:55,050 runserver 11041 125120267945536 [31;1mHTTP GET /v1.0/user/profile/client/28 401 [0.01, 127.0.0.1:50786][0m
+[WARNING] 2024-06-01 21:19:25,316 log 11041 125120137922112 Not Found: /v1.0/user/profile/client/19
+[WARNING] 2024-06-01 21:19:25,318 runserver 11041 125120267945536 [33mHTTP PATCH /v1.0/user/profile/client/19 404 [0.06, 127.0.0.1:50786][0m
+[WARNING] 2024-06-01 21:19:25,536 log 11041 125120179865152 Not Found: /v1.0/user/profile/client/19
+[WARNING] 2024-06-01 21:19:25,538 runserver 11041 125120267945536 [33mHTTP PATCH /v1.0/user/profile/client/19 404 [0.05, 127.0.0.1:50786][0m
+[WARNING] 2024-06-01 21:19:29,874 log 11041 125119611536960 Not Found: /v1.0/user/profile/client/19
+[WARNING] 2024-06-01 21:19:29,876 runserver 11041 125120267945536 [33mHTTP PATCH /v1.0/user/profile/client/19 404 [0.05, 127.0.0.1:50786][0m
+[WARNING] 2024-06-01 21:19:30,231 log 11041 125120169379392 Not Found: /v1.0/user/profile/client/19
+[WARNING] 2024-06-01 21:19:30,232 runserver 11041 125120267945536 [33mHTTP PATCH /v1.0/user/profile/client/19 404 [0.05, 127.0.0.1:50786][0m
+[WARNING] 2024-06-01 21:19:33,839 log 11041 125120137922112 Not Found: /v1.0/user/profile/client/19
+[WARNING] 2024-06-01 21:19:33,840 runserver 11041 125120267945536 [33mHTTP PATCH /v1.0/user/profile/client/19 404 [0.05, 127.0.0.1:50786][0m
+[WARNING] 2024-06-01 21:19:34,022 log 11041 125120179865152 Not Found: /v1.0/user/profile/client/19
+[WARNING] 2024-06-01 21:19:34,024 runserver 11041 125120267945536 [33mHTTP PATCH /v1.0/user/profile/client/19 404 [0.06, 127.0.0.1:50786][0m
+[WARNING] 2024-06-01 21:19:51,543 log 11041 125119611536960 Not Found: /v1.0/user/profile/client/19
+[WARNING] 2024-06-01 21:19:51,544 runserver 11041 125120267945536 [33mHTTP PATCH /v1.0/user/profile/client/19 404 [0.05, 127.0.0.1:50786][0m
+[WARNING] 2024-06-01 21:21:10,335 log 11041 125120169379392 Not Found: /v1.0/user/profile/designer/62
+[WARNING] 2024-06-01 21:21:10,337 runserver 11041 125120267945536 [33mHTTP GET /v1.0/user/profile/designer/62 404 [0.05, 127.0.0.1:41618][0m
+[WARNING] 2024-06-01 21:21:10,393 log 11041 125120137922112 Not Found: /v1.0/user/profile/designer/62
+[WARNING] 2024-06-01 21:21:10,397 runserver 11041 125120267945536 [33mHTTP GET /v1.0/user/profile/designer/62 404 [0.06, 127.0.0.1:41612][0m
+[WARNING] 2024-06-01 21:22:02,971 log 11041 125120179865152 Not Found: /v1.0/user/profile/designer/62
+[WARNING] 2024-06-01 21:22:02,977 runserver 11041 125120267945536 [33mHTTP GET /v1.0/user/profile/designer/62 404 [0.06, 127.0.0.1:41618][0m
+[WARNING] 2024-06-01 21:22:03,034 log 11041 125119611536960 Not Found: /v1.0/user/profile/designer/62
+[WARNING] 2024-06-01 21:22:03,035 runserver 11041 125120267945536 [33mHTTP GET /v1.0/user/profile/designer/62 404 [0.06, 127.0.0.1:41612][0m
+[WARNING] 2024-06-01 21:27:06,843 log 11041 125120169379392 Unauthorized: /v1.0/core/categories/
+[WARNING] 2024-06-01 21:27:06,845 runserver 11041 125120267945536 [31;1mHTTP GET /v1.0/core/categories/ 401 [0.01, 127.0.0.1:55780][0m
+[WARNING] 2024-06-01 21:27:06,873 log 11041 125120137922112 Unauthorized: /v1.0/core/categories/
+[WARNING] 2024-06-01 21:27:06,876 runserver 11041 125120267945536 [31;1mHTTP GET /v1.0/core/categories/ 401 [0.02, 127.0.0.1:55788][0m
+[WARNING] 2024-06-01 21:44:22,378 log 11041 125120179865152 Unauthorized: /v1.0/user/profile/designer/
+[WARNING] 2024-06-01 21:44:22,379 runserver 11041 125120267945536 [31;1mHTTP GET /v1.0/user/profile/designer/ 401 [0.03, 127.0.0.1:59046][0m
+[WARNING] 2024-06-01 21:56:30,575 log 11041 125119611536960 Unauthorized: /v1.0/user/profile/designer/62
+[WARNING] 2024-06-01 21:56:30,577 runserver 11041 125120267945536 [31;1mHTTP GET /v1.0/user/profile/designer/62 401 [0.01, 127.0.0.1:46340][0m
+[WARNING] 2024-06-01 21:56:30,595 log 11041 125120169379392 Unauthorized: /v1.0/user/profile/designer/62
+[WARNING] 2024-06-01 21:56:30,597 runserver 11041 125120267945536 [31;1mHTTP GET /v1.0/user/profile/designer/62 401 [0.01, 127.0.0.1:46344][0m
+[WARNING] 2024-06-01 21:56:30,717 log 11041 125120137922112 Not Found: /v1.0/user/profile/designer/62
+[WARNING] 2024-06-01 21:56:30,719 runserver 11041 125120267945536 [33mHTTP GET /v1.0/user/profile/designer/62 404 [0.06, 127.0.0.1:46344][0m
+[WARNING] 2024-06-01 21:56:30,783 log 11041 125120179865152 Not Found: /v1.0/user/profile/designer/62
+[WARNING] 2024-06-01 21:56:30,784 runserver 11041 125120267945536 [33mHTTP GET /v1.0/user/profile/designer/62 404 [0.06, 127.0.0.1:46340][0m
+[WARNING] 2024-06-01 21:56:34,922 log 11041 125119611536960 Not Found: /v1.0/user/profile/designer/62
+[WARNING] 2024-06-01 21:56:34,923 runserver 11041 125120267945536 [33mHTTP GET /v1.0/user/profile/designer/62 404 [0.05, 127.0.0.1:46340][0m
+[WARNING] 2024-06-01 21:56:35,024 log 11041 125120169379392 Not Found: /v1.0/user/profile/designer/62
+[WARNING] 2024-06-01 21:56:35,026 runserver 11041 125120267945536 [33mHTTP GET /v1.0/user/profile/designer/62 404 [0.10, 127.0.0.1:36002][0m
+[WARNING] 2024-06-01 22:02:39,854 log 11041 125120137922112 Unauthorized: /v1.0/user/profile/designer/62
+[WARNING] 2024-06-01 22:02:39,855 runserver 11041 125120267945536 [31;1mHTTP GET /v1.0/user/profile/designer/62 401 [0.01, 127.0.0.1:60482][0m
+[WARNING] 2024-06-01 22:02:39,872 log 11041 125120179865152 Unauthorized: /v1.0/user/profile/designer/62
+[WARNING] 2024-06-01 22:02:39,873 runserver 11041 125120267945536 [31;1mHTTP GET /v1.0/user/profile/designer/62 401 [0.01, 127.0.0.1:60498][0m
+[WARNING] 2024-06-01 22:02:39,952 log 11041 125119611536960 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-01 22:02:39,954 runserver 11041 125120267945536 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:60498][0m
+[WARNING] 2024-06-01 22:02:39,976 log 11041 125120169379392 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-01 22:02:39,977 runserver 11041 125120267945536 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:60500][0m
+[WARNING] 2024-06-01 22:02:40,064 log 11041 125120137922112 Not Found: /v1.0/user/profile/designer/62
+[WARNING] 2024-06-01 22:02:40,066 runserver 11041 125120267945536 [33mHTTP GET /v1.0/user/profile/designer/62 404 [0.06, 127.0.0.1:60482][0m
+[WARNING] 2024-06-01 22:02:40,123 log 11041 125120179865152 Not Found: /v1.0/user/profile/designer/62
+[WARNING] 2024-06-01 22:02:40,124 runserver 11041 125120267945536 [33mHTTP GET /v1.0/user/profile/designer/62 404 [0.06, 127.0.0.1:60498][0m
+[WARNING] 2024-06-01 22:02:52,304 log 11041 125119611536960 Not Found: /v1.0/user/profile/designer/62
+[WARNING] 2024-06-01 22:02:52,306 runserver 11041 125120267945536 [33mHTTP PATCH /v1.0/user/profile/designer/62 404 [0.05, 127.0.0.1:60482][0m
+[WARNING] 2024-06-01 22:02:58,252 log 11041 125120169379392 Not Found: /v1.0/user/profile/designer/62
+[WARNING] 2024-06-01 22:02:58,253 runserver 11041 125120267945536 [33mHTTP PATCH /v1.0/user/profile/designer/62 404 [0.05, 127.0.0.1:60482][0m
+[WARNING] 2024-06-01 22:02:59,611 log 11041 125120137922112 Not Found: /v1.0/user/profile/designer/62
+[WARNING] 2024-06-01 22:02:59,613 runserver 11041 125120267945536 [33mHTTP PATCH /v1.0/user/profile/designer/62 404 [0.06, 127.0.0.1:60482][0m
+[WARNING] 2024-06-01 22:03:00,151 log 11041 125120179865152 Not Found: /v1.0/user/profile/designer/62
+[WARNING] 2024-06-01 22:03:00,152 runserver 11041 125120267945536 [33mHTTP PATCH /v1.0/user/profile/designer/62 404 [0.06, 127.0.0.1:60482][0m
+[WARNING] 2024-06-01 22:10:34,018 log 11041 125120137922112 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-01 22:10:34,019 runserver 11041 125120267945536 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.02, 127.0.0.1:42368][0m
+[WARNING] 2024-06-01 22:10:34,050 log 11041 125119611536960 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-01 22:10:34,051 runserver 11041 125120267945536 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.03, 127.0.0.1:42366][0m
+[WARNING] 2024-06-01 22:10:34,120 log 11041 125120169379392 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-01 22:10:34,121 runserver 11041 125120267945536 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:42366][0m
+[WARNING] 2024-06-01 22:10:34,137 log 11041 125120137922112 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-01 22:10:34,139 runserver 11041 125120267945536 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:42368][0m
+[WARNING] 2024-06-01 22:11:06,549 log 11041 125119611536960 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-01 22:11:06,551 runserver 11041 125120267945536 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.02, 127.0.0.1:42368][0m
+[WARNING] 2024-06-01 22:11:06,583 log 11041 125120137922112 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-01 22:11:06,584 runserver 11041 125120267945536 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.03, 127.0.0.1:42366][0m
+[WARNING] 2024-06-01 22:12:09,155 log 11041 125120179865152 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-01 22:12:09,158 runserver 11041 125120267945536 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.09, 127.0.0.1:52582][0m
+[WARNING] 2024-06-01 22:12:09,159 log 11041 125120137922112 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-01 22:12:09,161 runserver 11041 125120267945536 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.10, 127.0.0.1:52574][0m
+[WARNING] 2024-06-01 22:16:17,606 log 11041 125120169379392 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-01 22:16:17,607 log 11041 125119611536960 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-01 22:16:17,608 runserver 11041 125120267945536 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.07, 127.0.0.1:33362][0m
+[WARNING] 2024-06-01 22:16:17,609 runserver 11041 125120267945536 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.07, 127.0.0.1:33374][0m
+[WARNING] 2024-06-01 22:16:17,630 log 11041 125120179865152 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-01 22:16:17,631 runserver 11041 125120267945536 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:33374][0m
+[WARNING] 2024-06-01 22:16:17,678 log 11041 125120169379392 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-01 22:16:17,679 runserver 11041 125120267945536 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:33374][0m
+[WARNING] 2024-06-01 22:29:32,449 log 11041 125120169379392 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-01 22:29:32,453 runserver 11041 125120267945536 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:57136][0m
+[WARNING] 2024-06-01 22:29:32,461 log 11041 125120137922112 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-01 22:29:32,462 runserver 11041 125120267945536 [31;1mHTTP GET /v1.0/user/details/ 401 [0.03, 127.0.0.1:57120][0m
+[WARNING] 2024-06-01 22:29:32,483 log 11041 125120179865152 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-01 22:29:32,485 runserver 11041 125120267945536 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:57150][0m
+[WARNING] 2024-06-01 22:29:32,491 log 11041 125120169379392 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-01 22:29:32,492 runserver 11041 125120267945536 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:57116][0m
+[WARNING] 2024-06-01 22:29:32,683 log 11041 125119611536960 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-01 22:29:32,685 runserver 11041 125120267945536 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:57150][0m
+[WARNING] 2024-06-01 22:29:32,744 log 11041 125120169379392 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-01 22:29:32,745 runserver 11041 125120267945536 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:57150][0m
+[WARNING] 2024-06-01 22:29:37,306 log 11041 125119611536960 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-01 22:29:37,307 runserver 11041 125120267945536 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:57150][0m
+[WARNING] 2024-06-01 22:30:27,842 log 11041 125120169379392 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-01 22:30:27,843 runserver 11041 125120267945536 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.03, 127.0.0.1:57120][0m
+[WARNING] 2024-06-01 22:30:27,870 log 11041 125119611536960 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-01 22:30:27,872 runserver 11041 125120267945536 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.03, 127.0.0.1:57116][0m
+[WARNING] 2024-06-02 09:04:23,179 log 6778 135903097914944 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 09:04:23,181 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.03, 127.0.0.1:57890][0m
+[WARNING] 2024-06-02 09:04:23,209 log 6778 135903097914944 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 09:04:23,211 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:57886][0m
+[WARNING] 2024-06-02 09:05:01,750 log 6778 135903097914944 Not Found: /
+[WARNING] 2024-06-02 09:05:01,753 runserver 6778 135903196481088 [33mHTTP GET / 404 [0.04, 127.0.0.1:42002][0m
+[WARNING] 2024-06-02 09:05:02,851 log 6778 135903097914944 Not Found: /favicon.ico
+[WARNING] 2024-06-02 09:05:02,853 runserver 6778 135903196481088 [33mHTTP GET /favicon.ico 404 [0.03, 127.0.0.1:42002][0m
+[WARNING] 2024-06-02 09:07:02,983 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:07:02,985 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:54900][0m
+[WARNING] 2024-06-02 09:07:03,011 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:07:03,013 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:54912][0m
+[WARNING] 2024-06-02 09:07:11,515 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:07:11,517 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:54912][0m
+[WARNING] 2024-06-02 09:09:38,101 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:09:38,103 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:47564][0m
+[WARNING] 2024-06-02 09:09:38,136 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:09:38,137 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:47574][0m
+[WARNING] 2024-06-02 09:09:38,558 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:09:38,559 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.23, 127.0.0.1:47574][0m
+[WARNING] 2024-06-02 09:09:38,592 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:09:38,593 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:47574][0m
+[WARNING] 2024-06-02 09:09:39,487 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:09:39,489 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:47574][0m
+[WARNING] 2024-06-02 09:09:45,478 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:09:45,480 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:47574][0m
+[WARNING] 2024-06-02 09:09:46,279 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:09:46,280 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:47574][0m
+[WARNING] 2024-06-02 09:10:00,967 log 6778 135903097914944 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-02 09:10:00,968 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.02, 127.0.0.1:47584][0m
+[WARNING] 2024-06-02 09:10:00,989 log 6778 135903097914944 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-02 09:10:00,990 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.02, 127.0.0.1:47600][0m
+[WARNING] 2024-06-02 09:33:30,007 log 6778 135902607181376 Unauthorized: /v1.0/user/profile/designer/28
+[WARNING] 2024-06-02 09:33:30,008 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/profile/designer/28 401 [0.01, 127.0.0.1:59512][0m
+[WARNING] 2024-06-02 09:33:38,639 log 6778 135902607181376 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-02 09:33:38,641 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.03, 127.0.0.1:59512][0m
+[WARNING] 2024-06-02 09:33:38,665 log 6778 135902607181376 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-02 09:33:38,667 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.02, 127.0.0.1:59758][0m
+[WARNING] 2024-06-02 09:35:02,441 log 6778 135902607181376 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-02 09:35:02,442 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.02, 127.0.0.1:59758][0m
+[WARNING] 2024-06-02 09:35:02,477 log 6778 135902607181376 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-02 09:35:02,478 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.03, 127.0.0.1:52206][0m
+[WARNING] 2024-06-02 09:39:26,268 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:39:26,269 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:39880][0m
+[WARNING] 2024-06-02 09:39:26,298 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:39:26,300 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:39884][0m
+[WARNING] 2024-06-02 09:39:26,306 log 6778 135903097914944 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 09:39:26,306 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:39886][0m
+[WARNING] 2024-06-02 09:39:26,322 log 6778 135902607181376 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 09:39:26,323 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:39888][0m
+[WARNING] 2024-06-02 09:39:26,595 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:39:26,597 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:39884][0m
+[WARNING] 2024-06-02 09:39:26,655 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:39:26,657 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:39884][0m
+[WARNING] 2024-06-02 09:39:28,911 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:39:28,912 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:39884][0m
+[WARNING] 2024-06-02 09:40:41,698 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:40:41,699 runserver 6778 135903196481088 [33mHTTP PATCH /v1.0/user/profile/client/undefined 404 [0.04, 127.0.0.1:32900][0m
+[WARNING] 2024-06-02 09:41:29,474 log 6778 135902617667136 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:41:29,475 runserver 6778 135903196481088 [33mHTTP PATCH /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:32900][0m
+[WARNING] 2024-06-02 09:41:31,448 log 6778 135902617667136 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:41:31,450 runserver 6778 135903196481088 [33mHTTP PATCH /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:32900][0m
+[WARNING] 2024-06-02 09:42:08,721 log 6778 135902617667136 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:42:08,723 runserver 6778 135903196481088 [33mHTTP PATCH /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:32900][0m
+[WARNING] 2024-06-02 09:42:12,995 log 6778 135902617667136 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:42:12,997 runserver 6778 135903196481088 [33mHTTP PATCH /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:32900][0m
+[WARNING] 2024-06-02 09:42:25,236 log 6778 135902617667136 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:42:25,238 runserver 6778 135903196481088 [33mHTTP PATCH /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:32900][0m
+[WARNING] 2024-06-02 09:42:32,666 log 6778 135902617667136 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:42:32,668 runserver 6778 135903196481088 [33mHTTP PATCH /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:32900][0m
+[WARNING] 2024-06-02 09:44:41,523 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:44:41,525 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.06, 127.0.0.1:54536][0m
+[WARNING] 2024-06-02 09:44:41,529 log 6778 135902617667136 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:44:41,530 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.06, 127.0.0.1:54542][0m
+[WARNING] 2024-06-02 09:44:41,901 log 6778 135903097914944 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 09:44:41,902 log 6778 135902607181376 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 09:44:41,903 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:54508][0m
+[WARNING] 2024-06-02 09:44:41,905 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:54520][0m
+[WARNING] 2024-06-02 09:44:42,304 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:44:42,305 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:54542][0m
+[WARNING] 2024-06-02 09:44:42,337 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:44:42,338 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:54536][0m
+[WARNING] 2024-06-02 09:45:21,635 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:45:21,642 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.05, 127.0.0.1:54536][0m
+[WARNING] 2024-06-02 09:45:21,669 log 6778 135902617667136 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:45:21,672 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.05, 127.0.0.1:54542][0m
+[WARNING] 2024-06-02 09:45:22,222 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:45:22,224 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:54542][0m
+[WARNING] 2024-06-02 09:45:22,265 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:45:22,267 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:54542][0m
+[WARNING] 2024-06-02 09:46:05,919 log 6778 135902617667136 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:46:05,922 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.05, 127.0.0.1:54542][0m
+[WARNING] 2024-06-02 09:46:05,931 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:46:05,956 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.07, 127.0.0.1:54536][0m
+[WARNING] 2024-06-02 09:46:06,447 log 6778 135902617667136 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:46:06,457 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.05, 127.0.0.1:54536][0m
+[WARNING] 2024-06-02 09:46:06,465 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:46:06,467 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:54542][0m
+[WARNING] 2024-06-02 09:46:20,315 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:46:20,317 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:54542][0m
+[WARNING] 2024-06-02 09:46:22,769 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:46:22,771 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:54542][0m
+[WARNING] 2024-06-02 09:46:32,379 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:46:32,381 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.06, 127.0.0.1:54542][0m
+[WARNING] 2024-06-02 09:48:55,465 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:48:55,470 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.06, 127.0.0.1:49854][0m
+[WARNING] 2024-06-02 09:48:55,481 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:48:55,494 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.06, 127.0.0.1:49858][0m
+[WARNING] 2024-06-02 09:48:55,936 log 6778 135902617667136 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:48:55,937 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:49858][0m
+[WARNING] 2024-06-02 09:48:55,982 log 6778 135902617667136 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:48:55,984 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:49858][0m
+[WARNING] 2024-06-02 09:57:18,352 log 6778 135902617667136 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:57:18,354 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.04, 127.0.0.1:55586][0m
+[WARNING] 2024-06-02 09:57:18,371 log 6778 135902617667136 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:57:18,373 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.04, 127.0.0.1:55602][0m
+[WARNING] 2024-06-02 09:57:18,678 log 6778 135903097914944 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 09:57:18,679 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:55600][0m
+[WARNING] 2024-06-02 09:57:18,680 log 6778 135903097914944 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 09:57:18,682 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:55574][0m
+[WARNING] 2024-06-02 09:57:19,480 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:57:19,481 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:55602][0m
+[WARNING] 2024-06-02 09:57:19,507 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:57:19,508 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:55586][0m
+[WARNING] 2024-06-02 09:59:16,645 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:59:16,660 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.06, 127.0.0.1:46564][0m
+[WARNING] 2024-06-02 09:59:16,673 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:59:16,692 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.07, 127.0.0.1:46580][0m
+[WARNING] 2024-06-02 09:59:17,080 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:59:17,081 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:46580][0m
+[WARNING] 2024-06-02 09:59:17,180 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 09:59:17,181 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:46580][0m
+[WARNING] 2024-06-02 10:00:38,697 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:00:38,698 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:56604][0m
+[WARNING] 2024-06-02 10:00:46,244 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:00:46,254 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.05, 127.0.0.1:56604][0m
+[WARNING] 2024-06-02 10:00:46,262 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:00:46,263 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.04, 127.0.0.1:56980][0m
+[WARNING] 2024-06-02 10:03:28,602 log 6778 135902617667136 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:03:28,606 log 6778 135902596695616 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:03:28,615 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.08, 127.0.0.1:44044][0m
+[WARNING] 2024-06-02 10:03:28,629 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.09, 127.0.0.1:44050][0m
+[WARNING] 2024-06-02 10:03:28,806 log 6778 135902617667136 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 10:03:28,808 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:44042][0m
+[WARNING] 2024-06-02 10:03:28,808 log 6778 135902596695616 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 10:03:28,810 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:44036][0m
+[WARNING] 2024-06-02 10:07:11,040 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:07:11,043 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.06, 127.0.0.1:59502][0m
+[WARNING] 2024-06-02 10:07:11,047 log 6778 135902596695616 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:07:11,050 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.06, 127.0.0.1:59512][0m
+[WARNING] 2024-06-02 10:07:34,406 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:07:34,407 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:59512][0m
+[WARNING] 2024-06-02 10:07:34,430 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:07:34,431 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:59502][0m
+[WARNING] 2024-06-02 10:08:02,061 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:08:02,062 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:59502][0m
+[WARNING] 2024-06-02 10:08:02,085 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:08:02,086 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:59512][0m
+[WARNING] 2024-06-02 10:08:38,268 log 6778 135902596695616 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:08:38,275 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.05, 127.0.0.1:59512][0m
+[WARNING] 2024-06-02 10:08:38,288 log 6778 135902617667136 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:08:38,294 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.05, 127.0.0.1:59502][0m
+[WARNING] 2024-06-02 10:08:38,527 log 6778 135902617667136 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 10:08:38,528 log 6778 135902607181376 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 10:08:38,529 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:59498][0m
+[WARNING] 2024-06-02 10:08:38,530 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:59486][0m
+[WARNING] 2024-06-02 10:11:56,350 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:11:56,352 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.04, 127.0.0.1:48678][0m
+[WARNING] 2024-06-02 10:11:56,376 log 6778 135902617667136 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:11:56,378 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.04, 127.0.0.1:48684][0m
+[WARNING] 2024-06-02 10:14:58,094 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:14:58,104 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.06, 127.0.0.1:60830][0m
+[WARNING] 2024-06-02 10:14:58,113 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:14:58,131 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.08, 127.0.0.1:60842][0m
+[WARNING] 2024-06-02 10:14:58,305 log 6778 135903097914944 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 10:14:58,306 log 6778 135902607181376 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 10:14:58,308 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:60822][0m
+[WARNING] 2024-06-02 10:14:58,309 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:60828][0m
+[WARNING] 2024-06-02 10:15:10,196 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:15:10,199 runserver 6778 135903196481088 [33mHTTP PATCH /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:60822][0m
+[WARNING] 2024-06-02 10:15:27,908 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:15:27,909 runserver 6778 135903196481088 [33mHTTP PATCH /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:60822][0m
+[WARNING] 2024-06-02 10:17:07,521 views 6778 135902709941824 (<User: dummy22@email.com>, True)
+[WARNING] 2024-06-02 10:17:27,631 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:17:27,632 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:33598][0m
+[WARNING] 2024-06-02 10:17:27,659 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:17:27,661 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:33614][0m
+[WARNING] 2024-06-02 10:17:59,044 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:17:59,045 runserver 6778 135903196481088 [33mHTTP PATCH /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:45604][0m
+[WARNING] 2024-06-02 10:18:19,092 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:18:19,093 runserver 6778 135903196481088 [33mHTTP PATCH /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:45604][0m
+[WARNING] 2024-06-02 10:18:24,977 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:18:24,978 runserver 6778 135903196481088 [33mHTTP PATCH /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:45604][0m
+[WARNING] 2024-06-02 10:18:26,122 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:18:26,124 runserver 6778 135903196481088 [33mHTTP PATCH /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:45604][0m
+[WARNING] 2024-06-02 10:18:28,349 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:18:28,351 runserver 6778 135903196481088 [33mHTTP PATCH /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:45604][0m
+[WARNING] 2024-06-02 10:22:17,985 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:22:17,986 runserver 6778 135903196481088 [33mHTTP PATCH /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:33662][0m
+[WARNING] 2024-06-02 10:22:18,699 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:22:18,700 runserver 6778 135903196481088 [33mHTTP PATCH /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:33662][0m
+[WARNING] 2024-06-02 10:22:18,991 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:22:18,993 runserver 6778 135903196481088 [33mHTTP PATCH /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:33662][0m
+[WARNING] 2024-06-02 10:26:29,059 log 6778 135902617667136 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:26:29,073 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.10, 127.0.0.1:44980][0m
+[WARNING] 2024-06-02 10:26:29,073 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:26:29,087 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.11, 127.0.0.1:44982][0m
+[WARNING] 2024-06-02 10:26:29,254 log 6778 135902617667136 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 10:26:29,255 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:44964][0m
+[WARNING] 2024-06-02 10:26:29,257 log 6778 135902607181376 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 10:26:29,258 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:44948][0m
+[WARNING] 2024-06-02 10:31:46,329 log 6778 135902617667136 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-02 10:31:46,335 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.05, 127.0.0.1:60928][0m
+[WARNING] 2024-06-02 10:31:46,370 log 6778 135902617667136 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-02 10:31:46,374 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.07, 127.0.0.1:60934][0m
+[WARNING] 2024-06-02 10:31:46,440 log 6778 135903097914944 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 10:31:46,442 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:60922][0m
+[WARNING] 2024-06-02 10:31:46,445 log 6778 135902596695616 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 10:31:46,446 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:60934][0m
+[WARNING] 2024-06-02 10:31:46,872 log 6778 135903097914944 Not Found: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-02 10:31:46,873 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/designer/29 404 [0.05, 127.0.0.1:60922][0m
+[WARNING] 2024-06-02 10:32:02,243 log 6778 135902607181376 Not Found: /v1.0/user/profile/designer/62
+[WARNING] 2024-06-02 10:32:02,244 runserver 6778 135903196481088 [33mHTTP PATCH /v1.0/user/profile/designer/62 404 [0.05, 127.0.0.1:60922][0m
+[WARNING] 2024-06-02 10:32:12,378 log 6778 135902596695616 Not Found: /v1.0/user/profile/designer/62
+[WARNING] 2024-06-02 10:32:12,380 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/designer/62 404 [0.14, 127.0.0.1:52484][0m
+[WARNING] 2024-06-02 10:44:43,964 log 6778 135902416340544 Unauthorized: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-02 10:44:43,965 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/profile/designer/29 401 [0.01, 127.0.0.1:41156][0m
+[WARNING] 2024-06-02 10:44:43,989 log 6778 135903097914944 Unauthorized: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-02 10:44:43,990 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/profile/designer/29 401 [0.01, 127.0.0.1:41168][0m
+[WARNING] 2024-06-02 10:44:44,077 log 6778 135902607181376 Not Found: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-02 10:44:44,078 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/designer/29 404 [0.05, 127.0.0.1:41168][0m
+[WARNING] 2024-06-02 10:44:44,125 log 6778 135902416340544 Not Found: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-02 10:44:44,126 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/designer/29 404 [0.05, 127.0.0.1:41156][0m
+[WARNING] 2024-06-02 10:45:47,933 log 6778 135903097914944 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-02 10:45:47,935 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.08, 127.0.0.1:56578][0m
+[WARNING] 2024-06-02 10:45:47,947 log 6778 135902596695616 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-02 10:45:47,949 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.09, 127.0.0.1:56568][0m
+[WARNING] 2024-06-02 10:45:48,348 log 6778 135902416340544 Not Found: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-02 10:45:48,349 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/designer/29 404 [0.05, 127.0.0.1:56594][0m
+[WARNING] 2024-06-02 10:46:26,827 log 6778 135902617667136 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-02 10:46:26,833 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.04, 127.0.0.1:56568][0m
+[WARNING] 2024-06-02 10:46:26,883 log 6778 135902617667136 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-02 10:46:26,887 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.07, 127.0.0.1:56594][0m
+[WARNING] 2024-06-02 10:46:27,146 log 6778 135902596695616 Not Found: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-02 10:46:27,147 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/designer/29 404 [0.05, 127.0.0.1:56594][0m
+[WARNING] 2024-06-02 10:47:05,850 log 6778 135902607181376 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-02 10:47:05,866 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.06, 127.0.0.1:56590][0m
+[WARNING] 2024-06-02 10:47:05,907 log 6778 135902416340544 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-02 10:47:05,908 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.08, 127.0.0.1:56594][0m
+[WARNING] 2024-06-02 10:47:06,118 log 6778 135902596695616 Not Found: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-02 10:47:06,120 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/designer/29 404 [0.05, 127.0.0.1:56568][0m
+[WARNING] 2024-06-02 10:47:52,746 log 6778 135902617667136 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:47:52,757 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.08, 127.0.0.1:59502][0m
+[WARNING] 2024-06-02 10:47:52,784 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:47:52,787 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.09, 127.0.0.1:59516][0m
+[WARNING] 2024-06-02 10:48:29,993 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:48:29,996 runserver 6778 135903196481088 [33mHTTP PATCH /v1.0/user/profile/client/undefined 404 [0.04, 127.0.0.1:56578][0m
+[WARNING] 2024-06-02 10:50:13,578 log 6778 135902416340544 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:50:13,579 runserver 6778 135903196481088 [33mHTTP PATCH /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:59940][0m
+[WARNING] 2024-06-02 10:50:22,359 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:50:22,360 runserver 6778 135903196481088 [33mHTTP PATCH /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:59940][0m
+[WARNING] 2024-06-02 10:51:33,728 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:51:33,729 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:43174][0m
+[WARNING] 2024-06-02 10:51:39,224 log 6778 135902416340544 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:51:39,226 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:43174][0m
+[WARNING] 2024-06-02 10:51:46,490 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:51:46,491 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.05, 127.0.0.1:43174][0m
+[WARNING] 2024-06-02 10:51:46,555 log 6778 135902596695616 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:51:46,557 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.08, 127.0.0.1:34280][0m
+[WARNING] 2024-06-02 10:51:46,709 log 6778 135903097914944 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 10:51:46,710 log 6778 135902607181376 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 10:51:46,711 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:34264][0m
+[WARNING] 2024-06-02 10:51:46,713 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:34258][0m
+[WARNING] 2024-06-02 10:52:47,629 log 6778 135902617667136 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:52:47,630 runserver 6778 135903196481088 [33mHTTP PATCH /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:50778][0m
+[WARNING] 2024-06-02 10:52:48,543 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:52:48,544 runserver 6778 135903196481088 [33mHTTP PATCH /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:50778][0m
+[WARNING] 2024-06-02 10:53:52,787 log 6778 135902596695616 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:53:52,802 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.05, 127.0.0.1:43090][0m
+[WARNING] 2024-06-02 10:53:52,817 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 10:53:52,820 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.05, 127.0.0.1:43106][0m
+[WARNING] 2024-06-02 13:08:46,272 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 13:08:46,274 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.06, 127.0.0.1:49010][0m
+[WARNING] 2024-06-02 13:08:46,292 log 6778 135902596695616 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 13:08:46,299 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.04, 127.0.0.1:49016][0m
+[WARNING] 2024-06-02 13:08:46,314 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 13:08:46,317 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.04, 127.0.0.1:49018][0m
+[WARNING] 2024-06-02 13:08:46,324 log 6778 135902617667136 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 13:08:46,326 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:49022][0m
+[WARNING] 2024-06-02 13:09:35,994 log 6778 135902416340544 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 13:09:35,996 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.04, 127.0.0.1:49018][0m
+[WARNING] 2024-06-02 13:09:36,028 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 13:09:36,030 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.05, 127.0.0.1:49010][0m
+[WARNING] 2024-06-02 13:15:42,256 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 13:15:42,258 runserver 6778 135903196481088 [33mHTTP PATCH /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:43020][0m
+[WARNING] 2024-06-02 13:15:44,215 log 6778 135902617667136 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 13:15:44,217 runserver 6778 135903196481088 [33mHTTP PATCH /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:43020][0m
+[WARNING] 2024-06-02 13:25:33,732 log 6778 135902596695616 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 13:25:33,733 runserver 6778 135903196481088 [33mHTTP PATCH /v1.0/user/profile/client/undefined 404 [0.03, 127.0.0.1:37182][0m
+[WARNING] 2024-06-02 13:40:17,890 log 6778 135902617667136 Unauthorized: /v1.0/user/profile/client/29
+[WARNING] 2024-06-02 13:40:17,891 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/profile/client/29 401 [0.01, 127.0.0.1:36476][0m
+[WARNING] 2024-06-02 13:40:17,909 log 6778 135903097914944 Unauthorized: /v1.0/user/profile/client/29
+[WARNING] 2024-06-02 13:40:17,910 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/profile/client/29 401 [0.01, 127.0.0.1:36484][0m
+[WARNING] 2024-06-02 13:41:51,547 log 6778 135902596695616 Not Found: /v1.0/user/profile/designer/62
+[WARNING] 2024-06-02 13:41:51,548 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/designer/62 404 [0.05, 127.0.0.1:47526][0m
+[WARNING] 2024-06-02 13:41:51,598 log 6778 135902617667136 Not Found: /v1.0/user/profile/designer/62
+[WARNING] 2024-06-02 13:41:51,601 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/designer/62 404 [0.05, 127.0.0.1:47534][0m
+[WARNING] 2024-06-02 13:42:23,113 log 6778 135902596695616 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 13:42:23,114 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:46460][0m
+[WARNING] 2024-06-02 13:42:23,140 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 13:42:23,142 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:46470][0m
+[WARNING] 2024-06-02 13:45:41,511 log 6778 135902596695616 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 13:45:41,512 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:38504][0m
+[WARNING] 2024-06-02 13:45:41,529 log 6778 135902617667136 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 13:45:41,530 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:38520][0m
+[WARNING] 2024-06-02 13:50:42,938 log 6778 135903097914944 Unauthorized: /v1.0/user/profile/client/28
+[WARNING] 2024-06-02 13:50:42,939 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/profile/client/28 401 [0.02, 127.0.0.1:49692][0m
+[WARNING] 2024-06-02 13:50:42,939 log 6778 135903097914944 Unauthorized: /v1.0/user/profile/client/28
+[WARNING] 2024-06-02 13:50:42,941 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/profile/client/28 401 [0.02, 127.0.0.1:49678][0m
+[WARNING] 2024-06-02 13:51:24,992 log 6778 135902416340544 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 13:51:24,994 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.05, 127.0.0.1:49678][0m
+[WARNING] 2024-06-02 13:51:25,008 log 6778 135902607181376 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 13:51:25,013 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:49670][0m
+[WARNING] 2024-06-02 13:51:25,032 log 6778 135902416340544 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 13:51:25,034 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.04, 127.0.0.1:49692][0m
+[WARNING] 2024-06-02 13:51:25,039 log 6778 135902596695616 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 13:51:25,041 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:49666][0m
+[WARNING] 2024-06-02 13:54:59,401 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 13:54:59,411 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.05, 127.0.0.1:54454][0m
+[WARNING] 2024-06-02 13:54:59,427 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 13:54:59,432 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.05, 127.0.0.1:54466][0m
+[WARNING] 2024-06-02 13:58:20,468 log 6778 135902617667136 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 13:58:20,470 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:46888][0m
+[WARNING] 2024-06-02 13:58:20,639 log 6778 135902416340544 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 13:58:20,641 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.12, 127.0.0.1:46888][0m
+[WARNING] 2024-06-02 13:58:20,796 log 6778 135902607181376 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 13:58:20,797 log 6778 135902617667136 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 13:58:20,799 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:46896][0m
+[WARNING] 2024-06-02 13:58:20,801 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.03, 127.0.0.1:46886][0m
+[WARNING] 2024-06-02 13:58:49,767 log 6778 135902607181376 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 13:58:49,771 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.04, 127.0.0.1:46908][0m
+[WARNING] 2024-06-02 13:58:49,795 log 6778 135902617667136 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 13:58:49,800 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.05, 127.0.0.1:46888][0m
+[WARNING] 2024-06-02 14:21:41,880 log 6778 135902596695616 Unauthorized: /v1.0/user/profile/client/28
+[WARNING] 2024-06-02 14:21:41,881 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/profile/client/28 401 [0.01, 127.0.0.1:53420][0m
+[WARNING] 2024-06-02 14:21:41,899 log 6778 135903097914944 Unauthorized: /v1.0/user/profile/client/28
+[WARNING] 2024-06-02 14:21:41,900 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/profile/client/28 401 [0.01, 127.0.0.1:53434][0m
+[WARNING] 2024-06-02 14:22:11,785 log 6778 135902596695616 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 14:22:11,786 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:53434][0m
+[WARNING] 2024-06-02 14:22:11,808 log 6778 135903097914944 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 14:22:11,809 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:53420][0m
+[WARNING] 2024-06-02 14:22:11,903 log 6778 135902596695616 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 14:22:11,905 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:33942][0m
+[WARNING] 2024-06-02 14:22:11,926 log 6778 135902607181376 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 14:22:11,928 runserver 6778 135903196481088 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:33944][0m
+[WARNING] 2024-06-02 14:22:35,860 log 6778 135902617667136 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 14:22:35,873 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.05, 127.0.0.1:53434][0m
+[WARNING] 2024-06-02 14:22:35,883 log 6778 135902416340544 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 14:22:35,894 runserver 6778 135903196481088 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.06, 127.0.0.1:53420][0m
+[WARNING] 2024-06-02 16:36:22,744 log 9268 131697720952384 Not Found: /
+[WARNING] 2024-06-02 16:36:22,747 runserver 9268 131697821615680 [33mHTTP GET / 404 [0.16, 127.0.0.1:54374][0m
+[WARNING] 2024-06-02 16:36:23,884 log 9268 131697720952384 Not Found: /favicon.ico
+[WARNING] 2024-06-02 16:36:23,886 runserver 9268 131697821615680 [33mHTTP GET /favicon.ico 404 [0.02, 127.0.0.1:54374][0m
+[WARNING] 2024-06-02 16:37:10,126 log 9268 131697720952384 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 16:37:10,128 runserver 9268 131697821615680 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:57824][0m
+[WARNING] 2024-06-02 16:37:10,142 log 9268 131697699980864 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 16:37:10,143 runserver 9268 131697821615680 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:57822][0m
+[WARNING] 2024-06-02 16:38:30,101 log 9268 131697720952384 Bad Request: /v1.0/user/profile/client/29
+[WARNING] 2024-06-02 16:38:30,102 runserver 9268 131697821615680 [31;1mHTTP PATCH /v1.0/user/profile/client/29 400 [0.06, 127.0.0.1:57822][0m
+[WARNING] 2024-06-02 16:38:46,428 log 9268 131697699980864 Not Found: /v1.0/user/profile/client/20
+[WARNING] 2024-06-02 16:38:46,430 runserver 9268 131697821615680 [33mHTTP GET /v1.0/user/profile/client/20 404 [0.07, 127.0.0.1:57708][0m
+[WARNING] 2024-06-02 16:43:27,364 log 9268 131697173595712 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 16:43:27,372 runserver 9268 131697821615680 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.09, 127.0.0.1:58238][0m
+[WARNING] 2024-06-02 16:43:27,391 log 9268 131697173595712 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 16:43:27,399 runserver 9268 131697821615680 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.12, 127.0.0.1:58224][0m
+[WARNING] 2024-06-02 16:43:27,567 log 9268 131697173595712 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 16:43:27,568 runserver 9268 131697821615680 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:58212][0m
+[WARNING] 2024-06-02 16:43:27,570 log 9268 131697720952384 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 16:43:27,571 runserver 9268 131697821615680 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:58198][0m
+[WARNING] 2024-06-02 16:47:17,880 log 9268 131697163109952 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 16:47:17,886 runserver 9268 131697821615680 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.06, 127.0.0.1:53104][0m
+[WARNING] 2024-06-02 16:47:17,913 log 9268 131697163109952 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 16:47:17,914 runserver 9268 131697821615680 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.08, 127.0.0.1:53112][0m
+[WARNING] 2024-06-02 16:53:33,534 log 9268 131697163109952 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 16:53:33,545 runserver 9268 131697821615680 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.07, 127.0.0.1:54884][0m
+[WARNING] 2024-06-02 16:53:33,565 log 9268 131697163109952 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-02 16:53:33,567 runserver 9268 131697821615680 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.08, 127.0.0.1:54898][0m
+[WARNING] 2024-06-02 16:53:33,799 log 9268 131697720952384 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 16:53:33,800 runserver 9268 131697821615680 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:54876][0m
+[WARNING] 2024-06-02 16:53:33,802 log 9268 131697173595712 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 16:53:33,803 runserver 9268 131697821615680 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:54868][0m
+[WARNING] 2024-06-02 16:54:11,292 log 9268 131697173595712 Not Found: /v1.0/user/profile/client/20
+[WARNING] 2024-06-02 16:54:11,293 runserver 9268 131697821615680 [33mHTTP PATCH /v1.0/user/profile/client/20 404 [0.05, 127.0.0.1:54868][0m
+[WARNING] 2024-06-02 16:58:38,161 log 9268 131697720952384 Unauthorized: /v1.0/user/profile/client/29
+[WARNING] 2024-06-02 16:58:38,162 runserver 9268 131697821615680 [31;1mHTTP PATCH /v1.0/user/profile/client/29 401 [0.01, 127.0.0.1:40986][0m
+[WARNING] 2024-06-02 16:58:38,319 log 9268 131697163109952 Bad Request: /v1.0/user/profile/client/29
+[WARNING] 2024-06-02 16:58:38,320 runserver 9268 131697821615680 [31;1mHTTP PATCH /v1.0/user/profile/client/29 400 [0.06, 127.0.0.1:40986][0m
+[WARNING] 2024-06-02 18:03:29,986 log 9268 131697699980864 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 18:03:29,988 runserver 9268 131697821615680 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:40220][0m
+[WARNING] 2024-06-02 18:03:30,006 log 9268 131697173595712 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 18:03:30,008 runserver 9268 131697821615680 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:40220][0m
+[WARNING] 2024-06-02 19:00:44,162 log 9268 131697173595712 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 19:00:44,163 runserver 9268 131697821615680 [31;1mHTTP GET /v1.0/user/details/ 401 [0.03, 127.0.0.1:46114][0m
+[WARNING] 2024-06-02 19:00:44,181 log 9268 131697699980864 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 19:00:44,182 runserver 9268 131697821615680 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:46138][0m
+[WARNING] 2024-06-02 19:07:14,613 log 9268 131697163109952 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 19:07:14,614 runserver 9268 131697821615680 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:58274][0m
+[WARNING] 2024-06-02 19:07:14,663 log 9268 131697720952384 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 19:07:14,665 runserver 9268 131697821615680 [31;1mHTTP GET /v1.0/user/details/ 401 [0.04, 127.0.0.1:58306][0m
+[WARNING] 2024-06-02 19:16:40,373 log 9268 131697173595712 Unauthorized: /v1.0/project/client/
+[WARNING] 2024-06-02 19:16:40,374 runserver 9268 131697821615680 [31;1mHTTP GET /v1.0/project/client/ 401 [0.01, 127.0.0.1:37172][0m
+[WARNING] 2024-06-02 19:16:40,400 log 9268 131697699980864 Unauthorized: /v1.0/project/client/
+[WARNING] 2024-06-02 19:16:40,404 runserver 9268 131697821615680 [31;1mHTTP GET /v1.0/project/client/ 401 [0.02, 127.0.0.1:37162][0m
+[WARNING] 2024-06-02 19:33:04,121 log 9268 131697163109952 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 19:33:04,123 runserver 9268 131697821615680 [31;1mHTTP GET /v1.0/user/details/ 401 [0.06, 127.0.0.1:42986][0m
+[WARNING] 2024-06-02 19:33:04,159 log 9268 131697720952384 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 19:33:04,162 runserver 9268 131697821615680 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:43006][0m
+[WARNING] 2024-06-02 19:50:00,895 log 9268 131697163109952 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 19:50:00,899 runserver 9268 131697821615680 [31;1mHTTP GET /v1.0/user/details/ 401 [0.03, 127.0.0.1:40406][0m
+[WARNING] 2024-06-02 19:50:00,915 log 9268 131697699980864 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 19:50:00,916 runserver 9268 131697821615680 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:40388][0m
+[WARNING] 2024-06-02 20:13:21,483 log 9268 131697173595712 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 20:13:21,485 runserver 9268 131697821615680 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:46918][0m
+[WARNING] 2024-06-02 20:13:21,502 log 9268 131697720952384 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 20:13:21,505 runserver 9268 131697821615680 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:46916][0m
+[WARNING] 2024-06-02 21:04:31,965 log 9268 131697173595712 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 21:04:31,967 runserver 9268 131697821615680 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:44118][0m
+[WARNING] 2024-06-02 21:04:31,989 log 9268 131697720952384 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-02 21:04:31,992 runserver 9268 131697821615680 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:44122][0m
