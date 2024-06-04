@@ -143,6 +143,24 @@ class DesignerProfileSerializer(DynamicFieldsModelSerializer):
         model = DesignerProfile
         fields = "__all__"
         read_only_fields = ("rating",)
+        extra_kwargs = {
+            'firstname': {'required': False, 'allow_blank': True},
+            'lastname': {'required': False, 'allow_blank': True},
+            'country': {'required': False, 'allow_blank': True},
+            'city': {'required': False, 'allow_blank': True},
+            'timezone': {'required': False, 'allow_blank': True},
+            'address': {'required': False, 'allow_blank': True},
+            'state': {'required': False, 'allow_blank': True},
+            'zip_code': {'required': False, 'allow_blank': True},
+            'phone': {'required': False, 'allow_blank': True},
+            'bio': {'required': False, 'allow_blank': True},
+            'languages': {'required': False, 'allow_blank': True},
+            'avatar': {'required': False, 'allow_null': True},
+            'id_card': {'required': False, 'allow_null': True},
+            'gender' : {'required': False, 'allow_null': True},
+            'birth_date':{'required': False, 'allow_null': True},
+            'sample_designs':{'required': False, 'allow_null': True},
+        }   
 
     def get_avatar(self, obj):
         if obj.avatar:
@@ -193,6 +211,21 @@ class ClientProfileSerializer(serializers.ModelSerializer):
     class Meta:
         model = ClientProfile
         fields = "__all__"
+        extra_kwargs = {
+            'firstname': {'required': False, 'allow_blank': True},
+            'lastname': {'required': False, 'allow_blank': True},
+            'country': {'required': False, 'allow_blank': True},
+            'city': {'required': False, 'allow_blank': True},
+            'timezone': {'required': False, 'allow_blank': True},
+            'address': {'required': False, 'allow_blank': True},
+            'state': {'required': False, 'allow_blank': True},
+            'zip_code': {'required': False, 'allow_blank': True},
+            'phone': {'required': False, 'allow_blank': True},
+            'bio': {'required': False, 'allow_blank': True},
+            'languages': {'required': False, 'allow_blank': True},
+            'avatar': {'required': False, 'allow_null': True},
+            'id_card': {'required': False, 'allow_null': True},
+        }
     def get_avatar(self, obj):
         if obj.avatar:
             with open(obj.avatar.path, "rb") as image_file:

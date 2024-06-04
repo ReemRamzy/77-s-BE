@@ -17395,3 +17395,636 @@ Original exception text was: 'AnonymousUser' object has no attribute 'email'.
 [WARNING] 2024-06-02 21:04:31,967 runserver 9268 131697821615680 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:44118][0m
 [WARNING] 2024-06-02 21:04:31,989 log 9268 131697720952384 Unauthorized: /v1.0/user/details/
 [WARNING] 2024-06-02 21:04:31,992 runserver 9268 131697821615680 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:44122][0m
+[WARNING] 2024-06-03 07:48:16,867 log 8192 138719587731008 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 07:48:16,869 runserver 8192 138719673714240 [31;1mHTTP GET /v1.0/user/details/ 401 [0.03, 127.0.0.1:41820][0m
+[WARNING] 2024-06-03 07:48:16,886 log 8192 138719587731008 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 07:48:16,887 runserver 8192 138719673714240 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:41804][0m
+[WARNING] 2024-06-03 07:48:48,238 log 8192 138719587731008 Not Found: /
+[WARNING] 2024-06-03 07:48:48,239 runserver 8192 138719673714240 [33mHTTP GET / 404 [0.03, 127.0.0.1:52674][0m
+[WARNING] 2024-06-03 07:48:49,303 log 8192 138719587731008 Not Found: /favicon.ico
+[WARNING] 2024-06-03 07:48:49,304 runserver 8192 138719673714240 [33mHTTP GET /favicon.ico 404 [0.02, 127.0.0.1:52674][0m
+[WARNING] 2024-06-03 07:49:05,410 log 8192 138719587731008 Not Found: /docs/ admin
+[WARNING] 2024-06-03 07:49:05,412 runserver 8192 138719673714240 [33mHTTP GET /docs/%20admin 404 [0.03, 127.0.0.1:52674][0m
+[WARNING] 2024-06-03 09:04:24,893 log 8192 138719556273728 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 09:04:24,895 runserver 8192 138719673714240 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:49312][0m
+[WARNING] 2024-06-03 09:04:24,916 log 8192 138719587731008 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 09:04:24,918 runserver 8192 138719673714240 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:49328][0m
+[WARNING] 2024-06-03 09:45:56,400 log 8192 138719088608832 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 09:45:56,401 runserver 8192 138719673714240 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:55630][0m
+[WARNING] 2024-06-03 09:45:56,422 log 8192 138719587731008 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 09:45:56,423 runserver 8192 138719673714240 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:55644][0m
+[WARNING] 2024-06-03 09:54:58,332 log 8192 138718975362624 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-03 09:54:58,333 runserver 8192 138719673714240 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.02, 127.0.0.1:46652][0m
+[WARNING] 2024-06-03 09:54:58,413 log 8192 138719109580352 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-03 09:54:58,414 runserver 8192 138719673714240 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.04, 127.0.0.1:46652][0m
+[WARNING] 2024-06-03 09:54:58,510 log 8192 138719556273728 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 09:54:58,512 runserver 8192 138719673714240 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:46662][0m
+[WARNING] 2024-06-03 09:54:58,514 log 8192 138719109580352 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 09:54:58,515 runserver 8192 138719673714240 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:46642][0m
+[WARNING] 2024-06-03 10:33:32,700 log 8192 138719088608832 Unauthorized: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 10:33:32,703 runserver 8192 138719673714240 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 401 [0.02, 127.0.0.1:37412][0m
+[WARNING] 2024-06-03 10:42:30,000 log 8192 138719556273728 Unauthorized: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 10:42:30,001 runserver 8192 138719673714240 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 401 [0.01, 127.0.0.1:53182][0m
+[WARNING] 2024-06-03 10:42:30,126 log 8192 138719109580352 Forbidden: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 10:42:30,128 runserver 8192 138719673714240 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 403 [0.05, 127.0.0.1:53182][0m
+[WARNING] 2024-06-03 10:43:35,369 log 8192 138719587731008 Forbidden: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 10:43:35,370 runserver 8192 138719673714240 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 403 [0.06, 127.0.0.1:60924][0m
+[WARNING] 2024-06-03 11:03:32,349 log 8192 138719556273728 Unauthorized: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 11:03:32,350 runserver 8192 138719673714240 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 401 [0.01, 127.0.0.1:59312][0m
+[WARNING] 2024-06-03 11:03:32,474 log 8192 138719109580352 Forbidden: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 11:03:32,476 runserver 8192 138719673714240 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 403 [0.05, 127.0.0.1:59312][0m
+[WARNING] 2024-06-03 11:03:39,567 log 8192 138719587731008 Unauthorized: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 11:03:39,568 runserver 8192 138719673714240 [31;1mHTTP GET /v1.0/user/profile/designer/samples/ 401 [0.03, 127.0.0.1:52182][0m
+[WARNING] 2024-06-03 11:05:17,963 log 8192 138718975362624 Forbidden: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 11:05:17,964 runserver 8192 138719673714240 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 403 [0.05, 127.0.0.1:51970][0m
+[WARNING] 2024-06-03 11:05:18,758 log 8192 138719556273728 Forbidden: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 11:05:18,760 runserver 8192 138719673714240 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 403 [0.05, 127.0.0.1:51970][0m
+[WARNING] 2024-06-03 11:05:18,956 log 8192 138719109580352 Forbidden: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 11:05:18,958 runserver 8192 138719673714240 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 403 [0.05, 127.0.0.1:51970][0m
+[WARNING] 2024-06-03 11:05:19,145 log 8192 138718975362624 Forbidden: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 11:05:19,147 runserver 8192 138719673714240 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 403 [0.06, 127.0.0.1:51970][0m
+[WARNING] 2024-06-03 11:08:36,788 log 8192 138719088608832 Not Found: /user/profile/
+[WARNING] 2024-06-03 11:08:36,789 log 8192 138718975362624 Not Found: /user/profile/
+[WARNING] 2024-06-03 11:08:36,790 runserver 8192 138719673714240 [33mHTTP GET /user/profile/ 404 [0.04, 127.0.0.1:59322][0m
+[WARNING] 2024-06-03 11:08:36,792 runserver 8192 138719673714240 [33mHTTP GET /user/profile/ 404 [0.04, 127.0.0.1:59314][0m
+[WARNING] 2024-06-03 11:09:19,099 log 8192 138719109580352 Not Found: /user/details/
+[WARNING] 2024-06-03 11:09:19,100 runserver 8192 138719673714240 [33mHTTP GET /user/details/ 404 [0.02, 127.0.0.1:59314][0m
+[WARNING] 2024-06-03 11:13:12,068 log 8192 138719587731008 Not Found: /user/profile/designer
+[WARNING] 2024-06-03 11:13:12,069 runserver 8192 138719673714240 [33mHTTP GET /user/profile/designer 404 [0.03, 127.0.0.1:39282][0m
+[WARNING] 2024-06-03 11:13:42,815 log 8192 138719109580352 Unauthorized: /v1.0/user/profile/designer/
+[WARNING] 2024-06-03 11:13:42,816 runserver 8192 138719673714240 [31;1mHTTP GET /v1.0/user/profile/designer/ 401 [0.01, 127.0.0.1:32822][0m
+[WARNING] 2024-06-03 11:14:29,841 log 8192 138719587731008 Not Found: /user/profile/designer
+[WARNING] 2024-06-03 11:14:29,842 runserver 8192 138719673714240 [33mHTTP GET /user/profile/designer 404 [0.03, 127.0.0.1:40522][0m
+[WARNING] 2024-06-03 11:14:29,867 log 8192 138719088608832 Not Found: /user/profile/designer
+[WARNING] 2024-06-03 11:14:29,868 runserver 8192 138719673714240 [33mHTTP GET /user/profile/designer 404 [0.04, 127.0.0.1:40526][0m
+[WARNING] 2024-06-03 18:53:41,465 log 8666 133614656292416 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 18:53:41,467 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/details/ 401 [0.04, 127.0.0.1:55930][0m
+[WARNING] 2024-06-03 18:53:41,497 log 8666 133614656292416 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 18:53:41,503 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/details/ 401 [0.03, 127.0.0.1:55920][0m
+[WARNING] 2024-06-03 18:53:44,789 log 8666 133614656292416 Not Found: /
+[WARNING] 2024-06-03 18:53:44,791 runserver 8666 133614675166784 [33mHTTP GET / 404 [0.04, 127.0.0.1:44750][0m
+[WARNING] 2024-06-03 18:53:45,867 log 8666 133614656292416 Not Found: /favicon.ico
+[WARNING] 2024-06-03 18:53:45,868 runserver 8666 133614675166784 [33mHTTP GET /favicon.ico 404 [0.02, 127.0.0.1:44750][0m
+[WARNING] 2024-06-03 19:17:57,788 log 8666 133614656292416 Unauthorized: /v1.0/user/profile/client/28
+[WARNING] 2024-06-03 19:17:57,789 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/profile/client/28 401 [0.02, 127.0.0.1:45640][0m
+[WARNING] 2024-06-03 19:17:57,812 log 8666 133613993592384 Unauthorized: /v1.0/user/profile/client/28
+[WARNING] 2024-06-03 19:17:57,814 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/profile/client/28 401 [0.02, 127.0.0.1:45636][0m
+[WARNING] 2024-06-03 19:20:24,720 log 8666 133614004078144 Not Found: /v1.0/user/profile/designer/62
+[WARNING] 2024-06-03 19:20:24,722 runserver 8666 133614675166784 [33mHTTP GET /v1.0/user/profile/designer/62 404 [0.07, 127.0.0.1:42874][0m
+[WARNING] 2024-06-03 19:20:24,792 log 8666 133613993592384 Not Found: /v1.0/user/profile/designer/62
+[WARNING] 2024-06-03 19:20:24,794 runserver 8666 133614675166784 [33mHTTP GET /v1.0/user/profile/designer/62 404 [0.07, 127.0.0.1:42886][0m
+[WARNING] 2024-06-03 19:22:46,164 log 8666 133614656292416 Not Found: /v1.0/user/profile/designer/62
+[WARNING] 2024-06-03 19:22:46,166 runserver 8666 133614675166784 [33mHTTP PATCH /v1.0/user/profile/designer/62 404 [0.06, 127.0.0.1:39068][0m
+[WARNING] 2024-06-03 19:28:13,998 log 8666 133614551434816 Unauthorized: /v1.0/user/profile/designer/28
+[WARNING] 2024-06-03 19:28:13,999 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/profile/designer/28 401 [0.01, 127.0.0.1:47152][0m
+[WARNING] 2024-06-03 19:30:42,548 log 8666 133613993592384 Not Found: /user/profile/designer
+[WARNING] 2024-06-03 19:30:42,564 runserver 8666 133614675166784 [33mHTTP GET /user/profile/designer 404 [0.06, 127.0.0.1:46996][0m
+[WARNING] 2024-06-03 19:30:42,574 log 8666 133614004078144 Not Found: /user/profile/designer
+[WARNING] 2024-06-03 19:30:42,575 runserver 8666 133614675166784 [33mHTTP GET /user/profile/designer 404 [0.06, 127.0.0.1:46992][0m
+[WARNING] 2024-06-03 19:35:09,938 log 8666 133614656292416 Not Found: /user/profile/designer
+[WARNING] 2024-06-03 19:35:09,940 runserver 8666 133614675166784 [33mHTTP GET /user/profile/designer 404 [0.02, 127.0.0.1:37348][0m
+[WARNING] 2024-06-03 19:35:09,995 log 8666 133614004078144 Not Found: /user/profile/designer
+[WARNING] 2024-06-03 19:35:09,997 runserver 8666 133614675166784 [33mHTTP GET /user/profile/designer 404 [0.05, 127.0.0.1:37358][0m
+[WARNING] 2024-06-03 19:38:13,188 log 8666 133614656292416 Not Found: /undefined/undefined/user/profile/designer/samples/
+[WARNING] 2024-06-03 19:38:13,189 runserver 8666 133614675166784 [33mHTTP POST /undefined/undefined/user/profile/designer/samples/ 404 [0.02, 127.0.0.1:49128][0m
+[WARNING] 2024-06-03 19:39:52,581 log 8666 133613993592384 Unauthorized: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 19:39:52,582 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 401 [0.02, 127.0.0.1:33712][0m
+[WARNING] 2024-06-03 19:39:52,757 log 8666 133614004078144 Bad Request: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 19:39:52,758 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 400 [0.05, 127.0.0.1:33712][0m
+[WARNING] 2024-06-03 19:53:23,462 log 8666 133614551434816 Unauthorized: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 19:53:23,464 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 401 [0.02, 127.0.0.1:49886][0m
+[WARNING] 2024-06-03 19:53:23,587 log 8666 133614656292416 Bad Request: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 19:53:23,588 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 400 [0.05, 127.0.0.1:49886][0m
+[WARNING] 2024-06-03 19:54:24,907 log 8666 133613993592384 Bad Request: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 19:54:24,908 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 400 [0.06, 127.0.0.1:57206][0m
+[WARNING] 2024-06-03 19:54:26,112 log 8666 133614004078144 Bad Request: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 19:54:26,114 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 400 [0.06, 127.0.0.1:57206][0m
+[WARNING] 2024-06-03 19:54:26,718 log 8666 133614551434816 Bad Request: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 19:54:26,720 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 400 [0.06, 127.0.0.1:57206][0m
+[WARNING] 2024-06-03 19:56:16,526 log 8666 133614656292416 Bad Request: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 19:56:16,528 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 400 [0.06, 127.0.0.1:58148][0m
+[WARNING] 2024-06-03 19:56:17,608 log 8666 133613993592384 Bad Request: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 19:56:17,610 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 400 [0.06, 127.0.0.1:58148][0m
+[WARNING] 2024-06-03 19:56:36,691 log 8666 133614004078144 Bad Request: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 19:56:36,692 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 400 [0.05, 127.0.0.1:58148][0m
+[WARNING] 2024-06-03 19:57:12,660 log 8666 133614551434816 Bad Request: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 19:57:12,662 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 400 [0.05, 127.0.0.1:58148][0m
+[WARNING] 2024-06-03 19:58:00,534 log 8666 133614656292416 Bad Request: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 19:58:00,536 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 400 [0.06, 127.0.0.1:58148][0m
+[WARNING] 2024-06-03 19:58:01,343 log 8666 133613993592384 Bad Request: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 19:58:01,345 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 400 [0.06, 127.0.0.1:58148][0m
+[WARNING] 2024-06-03 19:58:01,786 log 8666 133614004078144 Bad Request: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 19:58:01,787 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 400 [0.06, 127.0.0.1:58148][0m
+[WARNING] 2024-06-03 20:01:07,336 log 8666 133614551434816 Unauthorized: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 20:01:07,337 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 401 [0.01, 127.0.0.1:36920][0m
+[WARNING] 2024-06-03 20:01:08,971 log 8666 133614656292416 Unauthorized: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 20:01:08,973 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 401 [0.01, 127.0.0.1:36920][0m
+[WARNING] 2024-06-03 20:05:01,416 log 8666 133613993592384 Unauthorized: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 20:05:01,418 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 401 [0.01, 127.0.0.1:52124][0m
+[WARNING] 2024-06-03 20:05:01,545 log 8666 133614004078144 Bad Request: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 20:05:01,547 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 400 [0.05, 127.0.0.1:52124][0m
+[WARNING] 2024-06-03 20:38:56,212 log 8666 133614551434816 Unauthorized: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 20:38:56,213 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 401 [0.01, 127.0.0.1:39498][0m
+[WARNING] 2024-06-03 20:38:56,719 log 8666 133614656292416 Bad Request: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 20:38:56,721 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 400 [0.05, 127.0.0.1:39498][0m
+[WARNING] 2024-06-03 20:39:51,824 log 8666 133613993592384 Bad Request: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 20:39:51,825 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 400 [0.05, 127.0.0.1:39498][0m
+[WARNING] 2024-06-03 20:40:28,948 log 8666 133614004078144 Bad Request: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 20:40:28,950 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 400 [0.06, 127.0.0.1:39498][0m
+[WARNING] 2024-06-03 20:40:29,909 log 8666 133614551434816 Bad Request: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 20:40:29,911 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 400 [0.08, 127.0.0.1:39498][0m
+[WARNING] 2024-06-03 20:40:30,135 log 8666 133614656292416 Bad Request: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 20:40:30,137 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 400 [0.06, 127.0.0.1:39498][0m
+[WARNING] 2024-06-03 20:40:30,715 log 8666 133613993592384 Bad Request: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 20:40:30,717 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 400 [0.06, 127.0.0.1:39498][0m
+[WARNING] 2024-06-03 20:46:59,714 log 8666 133613993592384 Not Found: /v1.0/categories/
+[WARNING] 2024-06-03 20:46:59,716 runserver 8666 133614675166784 [33mHTTP GET /v1.0/categories/ 404 [0.04, 127.0.0.1:58484][0m
+[WARNING] 2024-06-03 20:46:59,717 log 8666 133614656292416 Not Found: /v1.0/categories/
+[WARNING] 2024-06-03 20:46:59,718 runserver 8666 133614675166784 [33mHTTP GET /v1.0/categories/ 404 [0.04, 127.0.0.1:58488][0m
+[WARNING] 2024-06-03 20:47:36,347 log 8666 133614551434816 Unauthorized: /v1.0/core/categories/
+[WARNING] 2024-06-03 20:47:36,349 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/core/categories/ 401 [0.02, 127.0.0.1:58488][0m
+[WARNING] 2024-06-03 20:56:34,914 log 8666 133614004078144 Unauthorized: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 20:56:34,915 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 401 [0.01, 127.0.0.1:59064][0m
+[WARNING] 2024-06-03 20:56:35,038 log 8666 133613993592384 Bad Request: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 20:56:35,040 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 400 [0.05, 127.0.0.1:59064][0m
+[WARNING] 2024-06-03 20:56:52,156 log 8666 133614656292416 Bad Request: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 20:56:52,158 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 400 [0.05, 127.0.0.1:59064][0m
+[WARNING] 2024-06-03 20:56:52,319 log 8666 133614551434816 Bad Request: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 20:56:52,320 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 400 [0.05, 127.0.0.1:59064][0m
+[WARNING] 2024-06-03 20:56:52,794 log 8666 133614004078144 Bad Request: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 20:56:52,796 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 400 [0.05, 127.0.0.1:59064][0m
+[WARNING] 2024-06-03 20:56:53,228 log 8666 133613993592384 Bad Request: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 20:56:53,230 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 400 [0.05, 127.0.0.1:59064][0m
+[WARNING] 2024-06-03 20:58:05,047 log 8666 133614656292416 Bad Request: /v1.0/user/profile/designer/samples/
+[WARNING] 2024-06-03 20:58:05,049 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/designer/samples/ 400 [0.05, 127.0.0.1:59998][0m
+[WARNING] 2024-06-03 21:12:58,763 log 8666 133614004078144 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-03 21:12:58,778 runserver 8666 133614675166784 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.05, 127.0.0.1:38418][0m
+[WARNING] 2024-06-03 21:12:58,812 log 8666 133614656292416 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-03 21:12:58,814 runserver 8666 133614675166784 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.03, 127.0.0.1:47926][0m
+[WARNING] 2024-06-03 21:12:58,891 log 8666 133614551434816 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 21:12:58,893 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:38418][0m
+[WARNING] 2024-06-03 21:12:58,918 log 8666 133614004078144 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 21:12:58,920 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:47926][0m
+[WARNING] 2024-06-03 21:13:14,815 log 8666 133614656292416 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-03 21:13:14,816 runserver 8666 133614675166784 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.03, 127.0.0.1:47926][0m
+[WARNING] 2024-06-03 21:13:14,839 log 8666 133614004078144 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-03 21:13:14,840 runserver 8666 133614675166784 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.02, 127.0.0.1:38418][0m
+[WARNING] 2024-06-03 21:16:47,791 log 8666 133613993592384 Not Found: /v1.0/user/profile/designer/62
+[WARNING] 2024-06-03 21:16:47,793 runserver 8666 133614675166784 [33mHTTP PATCH /v1.0/user/profile/designer/62 404 [0.06, 127.0.0.1:52928][0m
+[WARNING] 2024-06-03 21:18:41,847 log 8666 133613993592384 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-03 21:18:41,862 runserver 8666 133614675166784 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.07, 127.0.0.1:35234][0m
+[WARNING] 2024-06-03 21:18:41,879 log 8666 133614004078144 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-03 21:18:41,880 runserver 8666 133614675166784 [33mHTTP GET /v1.0/user/profile/designer/undefined 404 [0.08, 127.0.0.1:35228][0m
+[WARNING] 2024-06-03 21:18:42,075 log 8666 133613993592384 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 21:18:42,076 log 8666 133614656292416 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 21:18:42,078 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:35228][0m
+[WARNING] 2024-06-03 21:18:42,079 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:35208][0m
+[WARNING] 2024-06-03 21:18:55,319 log 8666 133614551434816 Not Found: /v1.0/user/profile/designer/undefined
+[WARNING] 2024-06-03 21:18:55,321 runserver 8666 133614675166784 [33mHTTP PATCH /v1.0/user/profile/designer/undefined 404 [0.02, 127.0.0.1:35228][0m
+[ERROR] 2024-06-03 21:23:07,027 log 8666 133614656292416 Internal Server Error: /v1.0/user/details/
+Traceback (most recent call last):
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'AnonymousUser' object has no attribute 'email'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/reem/.local/lib/python3.10/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/home/reem/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+  File "/home/reem/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "/home/reem/.local/lib/python3.10/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/reem/.local/lib/python3.10/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/reem/.local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/reem/.local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/var/www/77D 10-3-2024/77D 10-3-2024 BE/user/views.py", line 182, in get_user_details
+    response = Response(serializer.data, status=status.HTTP_200_OK)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `email` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `AnonymousUser` instance.
+Original exception text was: 'AnonymousUser' object has no attribute 'email'.
+[ERROR] 2024-06-03 21:23:07,036 runserver 8666 133614675166784 [35;1mHTTP GET /v1.0/user/details/ 500 [0.11, 127.0.0.1:39884][0m
+[ERROR] 2024-06-03 21:23:31,654 log 8666 133614551434816 Internal Server Error: /v1.0/user/details/
+Traceback (most recent call last):
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'AnonymousUser' object has no attribute 'email'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/reem/.local/lib/python3.10/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/home/reem/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+  File "/home/reem/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "/home/reem/.local/lib/python3.10/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/reem/.local/lib/python3.10/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/reem/.local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/reem/.local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/var/www/77D 10-3-2024/77D 10-3-2024 BE/user/views.py", line 182, in get_user_details
+    response = Response(serializer.data, status=status.HTTP_200_OK)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `email` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `AnonymousUser` instance.
+Original exception text was: 'AnonymousUser' object has no attribute 'email'.
+[ERROR] 2024-06-03 21:23:31,661 runserver 8666 133614675166784 [35;1mHTTP GET /v1.0/user/details/ 500 [0.12, 127.0.0.1:39884][0m
+[WARNING] 2024-06-03 22:36:29,135 log 8666 133614656292416 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 22:36:29,136 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:33220][0m
+[WARNING] 2024-06-03 22:36:29,157 log 8666 133614004078144 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 22:36:29,159 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:33226][0m
+[WARNING] 2024-06-03 22:47:44,157 log 8666 133614004078144 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 22:47:44,160 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:53668][0m
+[WARNING] 2024-06-03 22:53:04,787 log 8666 133614004078144 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 22:53:04,789 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:39820][0m
+[WARNING] 2024-06-03 22:53:04,791 log 8666 133613993592384 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 22:53:04,792 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:43744][0m
+[WARNING] 2024-06-03 22:53:04,991 log 8666 133614656292416 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 22:53:04,993 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:39820][0m
+[WARNING] 2024-06-03 22:53:05,026 log 8666 133614551434816 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 22:53:05,028 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/details/ 401 [0.03, 127.0.0.1:43750][0m
+[WARNING] 2024-06-03 22:53:47,580 views 8666 133614014563904 (<User: usertest@email.com>, True)
+[ERROR] 2024-06-03 23:01:14,243 log 8666 133614004078144 Internal Server Error: /v1.0/user/details/
+Traceback (most recent call last):
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'AnonymousUser' object has no attribute 'email'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/reem/.local/lib/python3.10/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/home/reem/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+  File "/home/reem/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "/home/reem/.local/lib/python3.10/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/reem/.local/lib/python3.10/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/reem/.local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/reem/.local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/var/www/77D 10-3-2024/77D 10-3-2024 BE/user/views.py", line 182, in get_user_details
+    response = Response(serializer.data, status=status.HTTP_200_OK)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `email` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `AnonymousUser` instance.
+Original exception text was: 'AnonymousUser' object has no attribute 'email'.
+[ERROR] 2024-06-03 23:01:14,249 runserver 8666 133614675166784 [35;1mHTTP GET /v1.0/user/details/ 500 [0.10, 127.0.0.1:52608][0m
+[ERROR] 2024-06-03 23:01:54,818 log 8666 133614656292416 Internal Server Error: /v1.0/user/details/
+Traceback (most recent call last):
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'AnonymousUser' object has no attribute 'email'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/reem/.local/lib/python3.10/site-packages/asgiref/sync.py", line 518, in thread_handler
+    raise exc_info[1]
+  File "/home/reem/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 42, in inner
+    response = await get_response(request)
+  File "/home/reem/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "/home/reem/.local/lib/python3.10/site-packages/asgiref/sync.py", line 468, in __call__
+    ret = await asyncio.shield(exec_coro)
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/reem/.local/lib/python3.10/site-packages/asgiref/sync.py", line 522, in thread_handler
+    return func(*args, **kwargs)
+  File "/home/reem/.local/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/reem/.local/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/var/www/77D 10-3-2024/77D 10-3-2024 BE/user/views.py", line 182, in get_user_details
+    response = Response(serializer.data, status=status.HTTP_200_OK)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/reem/.local/lib/python3.10/site-packages/rest_framework/fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `email` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `AnonymousUser` instance.
+Original exception text was: 'AnonymousUser' object has no attribute 'email'.
+[ERROR] 2024-06-03 23:01:54,825 runserver 8666 133614675166784 [35;1mHTTP GET /v1.0/user/details/ 500 [0.10, 127.0.0.1:52608][0m
+[WARNING] 2024-06-03 23:09:14,187 log 8666 133614004078144 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 23:09:14,188 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:55324][0m
+[WARNING] 2024-06-03 23:09:14,224 log 8666 133614551434816 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 23:09:14,227 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:55338][0m
+[WARNING] 2024-06-03 23:09:14,247 log 8666 133614656292416 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 23:09:14,248 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:55350][0m
+[WARNING] 2024-06-03 23:09:14,274 log 8666 133614551434816 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 23:09:14,276 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:55338][0m
+[WARNING] 2024-06-03 23:15:11,691 log 8666 133614004078144 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 23:15:11,693 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:34648][0m
+[WARNING] 2024-06-03 23:15:11,709 log 8666 133613993592384 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 23:15:11,710 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:34658][0m
+[WARNING] 2024-06-03 23:15:11,763 log 8666 133614656292416 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 23:15:11,765 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:34648][0m
+[WARNING] 2024-06-03 23:15:11,816 log 8666 133614551434816 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 23:15:11,818 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/details/ 401 [0.04, 127.0.0.1:34658][0m
+[WARNING] 2024-06-03 23:15:11,837 log 8666 133614004078144 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 23:15:11,838 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:34662][0m
+[WARNING] 2024-06-03 23:15:11,890 log 8666 133613993592384 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 23:15:11,908 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/details/ 401 [0.05, 127.0.0.1:34672][0m
+[WARNING] 2024-06-03 23:20:24,773 log 8666 133613993592384 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 23:20:24,774 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:59794][0m
+[WARNING] 2024-06-03 23:27:46,002 log 8666 133613993592384 Not Found: /v1.0/user/profile/client/25
+[WARNING] 2024-06-03 23:27:46,004 runserver 8666 133614675166784 [33mHTTP GET /v1.0/user/profile/client/25 404 [0.06, 127.0.0.1:45452][0m
+[WARNING] 2024-06-03 23:34:38,154 log 8666 133614004078144 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 23:34:38,156 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:55446][0m
+[WARNING] 2024-06-03 23:53:13,454 log 8666 133614551434816 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 23:53:13,456 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:48514][0m
+[WARNING] 2024-06-03 23:53:13,459 log 8666 133613993592384 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-03 23:53:13,460 runserver 8666 133614675166784 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:48522][0m
+[WARNING] 2024-06-03 23:54:35,805 log 8666 133613993592384 Method Not Allowed: /v1.0/user/profile/client/30
+[WARNING] 2024-06-03 23:54:35,806 runserver 8666 133614675166784 [31;1mHTTP POST /v1.0/user/profile/client/30 405 [0.05, 127.0.0.1:41518][0m
+[WARNING] 2024-06-03 23:55:15,817 log 8666 133614656292416 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-03 23:55:15,819 runserver 8666 133614675166784 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.06, 127.0.0.1:41518][0m
+[WARNING] 2024-06-03 23:55:47,199 log 8666 133614551434816 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-03 23:55:47,201 runserver 8666 133614675166784 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.06, 127.0.0.1:41518][0m
+[WARNING] 2024-06-03 23:56:06,462 log 8666 133613993592384 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-03 23:56:06,464 runserver 8666 133614675166784 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.06, 127.0.0.1:41518][0m
+[WARNING] 2024-06-04 00:02:07,772 log 241884 135549356607040 Unauthorized: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 00:02:07,782 runserver 241884 135549457270336 [31;1mHTTP PATCH /v1.0/user/profile/client/30 401 [0.03, 127.0.0.1:40650][0m
+[WARNING] 2024-06-04 00:02:07,950 log 241884 135549356607040 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 00:02:07,954 runserver 241884 135549457270336 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.07, 127.0.0.1:40650][0m
+[WARNING] 2024-06-04 00:02:55,157 log 241884 135549232875072 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 00:02:55,159 runserver 241884 135549457270336 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.06, 127.0.0.1:53856][0m
+[WARNING] 2024-06-04 00:03:04,504 log 241884 135549356607040 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 00:03:04,506 runserver 241884 135549457270336 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.06, 127.0.0.1:53856][0m
+[WARNING] 2024-06-04 00:03:05,377 log 241884 135549222389312 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 00:03:05,379 runserver 241884 135549457270336 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.06, 127.0.0.1:53856][0m
+[WARNING] 2024-06-04 00:03:05,638 log 241884 135549314664000 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 00:03:05,639 runserver 241884 135549457270336 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.06, 127.0.0.1:53856][0m
+[WARNING] 2024-06-04 00:03:06,051 log 241884 135549232875072 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 00:03:06,053 runserver 241884 135549457270336 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.06, 127.0.0.1:53856][0m
+[WARNING] 2024-06-04 00:03:06,273 log 241884 135549356607040 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 00:03:06,275 runserver 241884 135549457270336 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.06, 127.0.0.1:53856][0m
+[WARNING] 2024-06-04 00:03:06,655 log 241884 135549222389312 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 00:03:06,657 runserver 241884 135549457270336 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.06, 127.0.0.1:53856][0m
+[WARNING] 2024-06-04 00:03:06,861 log 241884 135549314664000 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 00:03:06,862 runserver 241884 135549457270336 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.06, 127.0.0.1:53856][0m
+[WARNING] 2024-06-04 00:03:07,042 log 241884 135549232875072 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 00:03:07,044 runserver 241884 135549457270336 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.06, 127.0.0.1:53856][0m
+[WARNING] 2024-06-04 00:03:07,219 log 241884 135549356607040 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 00:03:07,220 runserver 241884 135549457270336 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.06, 127.0.0.1:53856][0m
+[WARNING] 2024-06-04 00:03:07,373 log 241884 135549222389312 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 00:03:07,374 runserver 241884 135549457270336 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.06, 127.0.0.1:53856][0m
+[WARNING] 2024-06-04 00:03:07,532 log 241884 135549314664000 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 00:03:07,533 runserver 241884 135549457270336 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.06, 127.0.0.1:53856][0m
+[WARNING] 2024-06-04 00:03:07,700 log 241884 135549232875072 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 00:03:07,701 runserver 241884 135549457270336 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.05, 127.0.0.1:53856][0m
+[WARNING] 2024-06-04 00:04:14,634 log 241884 135549356607040 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 00:04:14,635 runserver 241884 135549457270336 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.07, 127.0.0.1:40650][0m
+[WARNING] 2024-06-04 00:11:44,308 log 250431 138830602569280 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 00:11:44,311 log 250431 138830453671488 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 00:11:44,312 runserver 250431 138830753564224 [31;1mHTTP GET /v1.0/user/details/ 401 [0.04, 127.0.0.1:47722][0m
+[WARNING] 2024-06-04 00:11:44,316 runserver 250431 138830753564224 [31;1mHTTP GET /v1.0/user/details/ 401 [0.05, 127.0.0.1:47736][0m
+[WARNING] 2024-06-04 00:11:44,323 log 250431 138830613055040 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 00:11:44,323 log 250431 138830602569280 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 00:11:44,324 runserver 250431 138830753564224 [31;1mHTTP GET /v1.0/user/details/ 401 [0.03, 127.0.0.1:47734][0m
+[WARNING] 2024-06-04 00:11:44,325 runserver 250431 138830753564224 [31;1mHTTP GET /v1.0/user/details/ 401 [0.03, 127.0.0.1:47710][0m
+[WARNING] 2024-06-04 01:16:16,177 log 250431 138830623540800 Unauthorized: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 01:16:16,181 runserver 250431 138830753564224 [31;1mHTTP PATCH /v1.0/user/profile/client/30 401 [0.03, 127.0.0.1:39198][0m
+[WARNING] 2024-06-04 01:16:16,369 log 250431 138830613055040 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 01:16:16,373 runserver 250431 138830753564224 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.08, 127.0.0.1:39198][0m
+[WARNING] 2024-06-04 01:17:43,827 log 250431 138830602569280 Not Found: /v1.0/user/profile/client/27
+[WARNING] 2024-06-04 01:17:43,829 runserver 250431 138830753564224 [33mHTTP GET /v1.0/user/profile/client/27 404 [0.06, 127.0.0.1:46650][0m
+[WARNING] 2024-06-04 01:17:56,899 log 250431 138830453671488 Not Found: /v1.0/user/profile/client/288
+[WARNING] 2024-06-04 01:17:56,900 runserver 250431 138830753564224 [33mHTTP GET /v1.0/user/profile/client/288 404 [0.06, 127.0.0.1:46650][0m
+[WARNING] 2024-06-04 01:30:57,696 log 316611 131877872600640 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 01:30:57,698 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.03, 127.0.0.1:46960][0m
+[WARNING] 2024-06-04 01:30:57,701 log 316611 131877862114880 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 01:30:57,703 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.03, 127.0.0.1:46950][0m
+[WARNING] 2024-06-04 01:46:13,078 log 316611 131877862114880 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 01:46:13,080 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:45538][0m
+[WARNING] 2024-06-04 01:46:13,099 log 316611 131877872600640 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 01:46:13,101 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:45542][0m
+[WARNING] 2024-06-04 01:46:13,128 log 316611 131877862114880 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 01:46:13,129 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:45554][0m
+[WARNING] 2024-06-04 01:46:13,143 log 316611 131877872600640 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 01:46:13,144 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:45538][0m
+[WARNING] 2024-06-04 01:47:55,866 log 316611 131877872600640 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 01:47:55,868 runserver 316611 131877912446528 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.05, 127.0.0.1:51152][0m
+[WARNING] 2024-06-04 01:48:23,966 log 316611 131877862114880 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 01:48:23,967 runserver 316611 131877912446528 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.06, 127.0.0.1:51152][0m
+[WARNING] 2024-06-04 01:48:25,139 log 316611 131877872600640 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 01:48:25,141 runserver 316611 131877912446528 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.06, 127.0.0.1:51152][0m
+[WARNING] 2024-06-04 01:54:53,009 log 316611 131877862114880 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 01:54:53,011 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:60852][0m
+[WARNING] 2024-06-04 01:54:53,032 log 316611 131877872600640 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 01:54:53,034 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:60856][0m
+[WARNING] 2024-06-04 01:54:53,063 log 316611 131877862114880 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 01:54:53,064 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:60868][0m
+[WARNING] 2024-06-04 01:54:53,078 log 316611 131877872600640 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 01:54:53,080 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:60852][0m
+[WARNING] 2024-06-04 01:55:30,630 log 316611 131877753062976 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 01:55:30,632 runserver 316611 131877912446528 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.11, 127.0.0.1:60852][0m
+[WARNING] 2024-06-04 02:00:30,819 log 316611 131877753062976 Unauthorized: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 02:00:30,822 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/profile/client/30 401 [0.04, 127.0.0.1:32948][0m
+[WARNING] 2024-06-04 02:00:30,921 log 316611 131877872600640 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 02:00:30,924 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.05, 127.0.0.1:32932][0m
+[WARNING] 2024-06-04 02:01:04,841 log 316611 131877872600640 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 02:01:04,842 runserver 316611 131877912446528 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.06, 127.0.0.1:32948][0m
+[WARNING] 2024-06-04 02:06:50,066 log 316611 131877872600640 Unauthorized: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 02:06:50,067 runserver 316611 131877912446528 [31;1mHTTP PATCH /v1.0/user/profile/client/30 401 [0.01, 127.0.0.1:43864][0m
+[WARNING] 2024-06-04 02:06:50,203 log 316611 131877862114880 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 02:06:50,205 runserver 316611 131877912446528 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.06, 127.0.0.1:43864][0m
+[WARNING] 2024-06-04 02:06:50,715 log 316611 131877872600640 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 02:06:50,717 runserver 316611 131877912446528 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.07, 127.0.0.1:43864][0m
+[WARNING] 2024-06-04 02:06:51,094 log 316611 131877862114880 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 02:06:51,097 runserver 316611 131877912446528 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.07, 127.0.0.1:43864][0m
+[WARNING] 2024-06-04 02:06:51,437 log 316611 131877872600640 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 02:06:51,440 runserver 316611 131877912446528 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.18, 127.0.0.1:43864][0m
+[WARNING] 2024-06-04 02:08:55,118 log 316611 131877872600640 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 02:08:55,120 runserver 316611 131877912446528 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.09, 127.0.0.1:41864][0m
+[WARNING] 2024-06-04 02:13:13,103 log 316611 131877862114880 Unauthorized: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 02:13:13,105 runserver 316611 131877912446528 [31;1mHTTP PATCH /v1.0/user/profile/client/30 401 [0.02, 127.0.0.1:55238][0m
+[WARNING] 2024-06-04 02:13:13,235 log 316611 131877872600640 Bad Request: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 02:13:13,236 runserver 316611 131877912446528 [31;1mHTTP PATCH /v1.0/user/profile/client/30 400 [0.06, 127.0.0.1:55238][0m
+[WARNING] 2024-06-04 02:18:43,081 log 316611 131877753062976 Unauthorized: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 02:18:43,085 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/profile/client/30 401 [0.02, 127.0.0.1:46836][0m
+[WARNING] 2024-06-04 02:18:43,088 log 316611 131877862114880 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 02:18:43,088 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:46840][0m
+[WARNING] 2024-06-04 02:26:26,660 log 316611 131877862114880 Unauthorized: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 02:26:26,663 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/profile/client/30 401 [0.01, 127.0.0.1:47018][0m
+[WARNING] 2024-06-04 02:26:26,696 log 316611 131877753062976 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 02:26:26,697 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:47018][0m
+[WARNING] 2024-06-04 03:20:02,834 log 316611 131877753062976 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-04 03:20:02,836 log 316611 131877872600640 Not Found: /v1.0/user/profile/client/undefined
+[WARNING] 2024-06-04 03:20:02,838 runserver 316611 131877912446528 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.11, 127.0.0.1:43176][0m
+[WARNING] 2024-06-04 03:20:02,842 runserver 316611 131877912446528 [33mHTTP GET /v1.0/user/profile/client/undefined 404 [0.11, 127.0.0.1:43172][0m
+[WARNING] 2024-06-04 03:20:02,905 log 316611 131877753062976 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 03:20:02,906 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:43154][0m
+[WARNING] 2024-06-04 03:20:02,908 log 316611 131877862114880 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 03:20:02,908 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:43168][0m
+[WARNING] 2024-06-04 03:23:54,810 log 316611 131877872600640 Not Found: /v1.0/user/profile/client/1
+[WARNING] 2024-06-04 03:23:54,811 runserver 316611 131877912446528 [33mHTTP GET /v1.0/user/profile/client/1 404 [0.05, 127.0.0.1:60496][0m
+[WARNING] 2024-06-04 03:27:12,065 log 316611 131877862114880 Unauthorized: /v1.0/user/profile/client/30
+[WARNING] 2024-06-04 03:27:12,067 log 316611 131877862114880 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 03:27:12,069 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/profile/client/30 401 [0.04, 127.0.0.1:56526][0m
+[WARNING] 2024-06-04 03:27:12,071 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.03, 127.0.0.1:56538][0m
+[WARNING] 2024-06-04 03:38:48,058 log 316611 131877872600640 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 03:38:48,060 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:59970][0m
+[WARNING] 2024-06-04 03:38:48,079 log 316611 131877862114880 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 03:38:48,081 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.01, 127.0.0.1:59978][0m
+[WARNING] 2024-06-04 03:48:39,480 log 316611 131877872600640 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 03:48:39,481 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:43752][0m
+[WARNING] 2024-06-04 03:48:39,540 log 316611 131877862114880 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 03:48:39,544 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.06, 127.0.0.1:43768][0m
+[WARNING] 2024-06-04 03:48:39,567 log 316611 131877872600640 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 03:48:39,570 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:46874][0m
+[WARNING] 2024-06-04 03:48:39,602 log 316611 131877862114880 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 03:48:39,604 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.03, 127.0.0.1:43768][0m
+[WARNING] 2024-06-04 03:59:31,791 log 316611 131877872600640 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 03:59:31,793 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:41318][0m
+[WARNING] 2024-06-04 03:59:31,816 log 316611 131877753062976 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 03:59:31,820 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:41322][0m
+[WARNING] 2024-06-04 04:12:47,129 log 316611 131877872600640 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 04:12:47,130 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:53424][0m
+[WARNING] 2024-06-04 04:12:47,155 log 316611 131877753062976 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 04:12:47,157 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:53428][0m
+[WARNING] 2024-06-04 04:21:04,706 log 316611 131877872600640 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 04:21:04,708 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:37772][0m
+[WARNING] 2024-06-04 04:21:04,736 log 316611 131877753062976 Unauthorized: /v1.0/user/details/
+[WARNING] 2024-06-04 04:21:04,738 runserver 316611 131877912446528 [31;1mHTTP GET /v1.0/user/details/ 401 [0.02, 127.0.0.1:37784][0m
+[WARNING] 2024-06-04 04:21:04,957 log 316611 131877872600640 Not Found: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-04 04:21:04,958 runserver 316611 131877912446528 [33mHTTP GET /v1.0/user/profile/designer/29 404 [0.05, 127.0.0.1:37772][0m
+[WARNING] 2024-06-04 04:21:05,009 log 316611 131877862114880 Not Found: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-04 04:21:05,011 runserver 316611 131877912446528 [33mHTTP GET /v1.0/user/profile/designer/29 404 [0.05, 127.0.0.1:37784][0m
+[WARNING] 2024-06-04 04:26:09,367 log 439517 138140050261568 Unauthorized: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-04 04:26:09,368 runserver 439517 138140079621696 [31;1mHTTP PATCH /v1.0/user/profile/designer/29 401 [0.03, 127.0.0.1:57038][0m
+[WARNING] 2024-06-04 04:26:09,507 log 439517 138140050261568 Not Found: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-04 04:26:09,509 runserver 439517 138140079621696 [33mHTTP PATCH /v1.0/user/profile/designer/29 404 [0.06, 127.0.0.1:57038][0m
+[WARNING] 2024-06-04 04:26:31,105 log 439517 138140050261568 Not Found: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-04 04:26:31,107 runserver 439517 138140079621696 [33mHTTP PATCH /v1.0/user/profile/designer/29 404 [0.07, 127.0.0.1:57038][0m
+[WARNING] 2024-06-04 04:38:43,108 log 439517 138140050261568 Unauthorized: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-04 04:38:43,110 runserver 439517 138140079621696 [31;1mHTTP PATCH /v1.0/user/profile/designer/29 401 [0.01, 127.0.0.1:43412][0m
+[WARNING] 2024-06-04 04:38:43,234 log 439517 138140050261568 Not Found: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-04 04:38:43,236 runserver 439517 138140079621696 [33mHTTP PATCH /v1.0/user/profile/designer/29 404 [0.05, 127.0.0.1:43412][0m
+[WARNING] 2024-06-04 04:39:04,315 log 439517 138140050261568 Not Found: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-04 04:39:04,317 runserver 439517 138140079621696 [33mHTTP GET /v1.0/user/profile/designer/29 404 [0.05, 127.0.0.1:43412][0m
+[WARNING] 2024-06-04 04:39:21,183 log 439517 138139916043840 Not Found: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-04 04:39:21,184 runserver 439517 138140079621696 [33mHTTP PATCH /v1.0/user/profile/designer/29 404 [0.05, 127.0.0.1:43412][0m
+[WARNING] 2024-06-04 04:41:37,733 log 439517 138139937015360 Not Found: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-04 04:41:37,734 runserver 439517 138140079621696 [33mHTTP PATCH /v1.0/user/profile/designer/29 404 [0.05, 127.0.0.1:33338][0m
+[WARNING] 2024-06-04 04:42:58,936 log 439517 138139926529600 Not Found: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-04 04:42:58,937 runserver 439517 138140079621696 [33mHTTP GET /v1.0/user/profile/designer/29 404 [0.07, 127.0.0.1:55026][0m
+[WARNING] 2024-06-04 04:42:59,013 log 439517 138140050261568 Not Found: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-04 04:42:59,015 runserver 439517 138140079621696 [33mHTTP GET /v1.0/user/profile/designer/29 404 [0.06, 127.0.0.1:55026][0m
+[WARNING] 2024-06-04 04:43:08,302 log 439517 138139916043840 Not Found: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-04 04:43:08,304 runserver 439517 138140079621696 [33mHTTP PATCH /v1.0/user/profile/designer/29 404 [0.06, 127.0.0.1:55026][0m
+[WARNING] 2024-06-04 04:44:26,864 log 439517 138139937015360 Not Found: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-04 04:44:26,865 runserver 439517 138140079621696 [33mHTTP GET /v1.0/user/profile/designer/29 404 [0.07, 127.0.0.1:55026][0m
+[WARNING] 2024-06-04 04:44:26,945 log 439517 138139926529600 Not Found: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-04 04:44:26,947 runserver 439517 138140079621696 [33mHTTP GET /v1.0/user/profile/designer/29 404 [0.05, 127.0.0.1:55026][0m
+[WARNING] 2024-06-04 04:44:42,257 log 439517 138140050261568 Not Found: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-04 04:44:42,259 runserver 439517 138140079621696 [33mHTTP PATCH /v1.0/user/profile/designer/29 404 [0.06, 127.0.0.1:55026][0m
+[WARNING] 2024-06-04 04:44:42,940 log 439517 138139916043840 Not Found: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-04 04:44:42,942 runserver 439517 138140079621696 [33mHTTP PATCH /v1.0/user/profile/designer/29 404 [0.06, 127.0.0.1:55026][0m
+[WARNING] 2024-06-04 04:44:43,157 log 439517 138139937015360 Not Found: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-04 04:44:43,159 runserver 439517 138140079621696 [33mHTTP PATCH /v1.0/user/profile/designer/29 404 [0.06, 127.0.0.1:55026][0m
+[WARNING] 2024-06-04 04:44:43,554 log 439517 138139926529600 Not Found: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-04 04:44:43,555 runserver 439517 138140079621696 [33mHTTP PATCH /v1.0/user/profile/designer/29 404 [0.07, 127.0.0.1:55026][0m
+[WARNING] 2024-06-04 04:45:31,754 log 439517 138140050261568 Not Found: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-04 04:45:31,755 runserver 439517 138140079621696 [33mHTTP GET /v1.0/user/profile/designer/29 404 [0.14, 127.0.0.1:35004][0m
+[WARNING] 2024-06-04 04:46:51,393 log 439517 138139926529600 Not Found: /v1.0/user/client/designer/29
+[WARNING] 2024-06-04 04:46:51,394 runserver 439517 138140079621696 [33mHTTP GET /v1.0/user/client/designer/29 404 [0.03, 127.0.0.1:57214][0m
+[WARNING] 2024-06-04 04:46:59,509 log 439517 138139916043840 Not Found: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-04 04:46:59,510 runserver 439517 138140079621696 [33mHTTP GET /v1.0/user/profile/designer/29 404 [0.08, 127.0.0.1:52120][0m
+[WARNING] 2024-06-04 04:46:59,642 log 439517 138139937015360 Not Found: /v1.0/user/profile/designer/29
+[WARNING] 2024-06-04 04:46:59,644 runserver 439517 138140079621696 [33mHTTP GET /v1.0/user/profile/designer/29 404 [0.05, 127.0.0.1:52114][0m
